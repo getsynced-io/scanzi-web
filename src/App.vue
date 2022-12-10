@@ -1,6 +1,9 @@
 <script setup>
 import { onMounted } from "vue";
+
+// components
 import Header from "./sections/Header.vue";
+import Hero from "./sections/Hero.vue";
 
 import WebFont from "webfontloader";
 
@@ -15,4 +18,5 @@ onMounted(() => {
 
 <template>
   <Header />
+  <Hero />
 </template>
