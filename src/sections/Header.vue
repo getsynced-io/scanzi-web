@@ -6,7 +6,7 @@ import LogoSVG from "../assets/logo.svg";
   <header
     class="p-4 [box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]  xl:px-[150px]"
   >
-    <div class="container mx-auto flex justify-between">
+    <div class="2xl:max-w-[1440px] 2xl:mx-auto flex justify-between">
       <div class="logo">
         <LogoSVG />
       </div>

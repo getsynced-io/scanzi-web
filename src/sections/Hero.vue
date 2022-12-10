@@ -11,8 +11,8 @@ import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
 
 <template>
   <section class="mt-8 px-4 lg:mt-16 xl:px-[150px]">
-    <div class="container mx-auto md:flex md:items-center md:gap-8 lg:gap-16">
-      <div class="xl:flex-[1_1_538px]">
+    <div class="2xl:max-w-[1440px] mx-auto md:flex md:items-center md:justify-between md:gap-8 lg:gap-16">
+      <div class="lg:flex-[0_1_538px]">
         <h1
           class="text-darkBlue font-bold text-5xl leading-[64px] lg:text-[64px] lg:leading-[96px]"
         >

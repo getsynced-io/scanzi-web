@@ -7,6 +7,9 @@ module.exports = {
         darkBlue: "#051E56",
         lightDarkBlue: "#051E56",
       },
+      screens: {
+        "2xl": "1440px",
+      },
     },
   },
   plugins: [],
