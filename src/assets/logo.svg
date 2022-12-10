@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="32px" viewBox="0 0 92 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Card</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32" rx="4"></rect>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M4.74578212,0 L15.2542179,0 C16.2543593,-1.07202699e-15 17.1007459,0.738803331 17.2358782,1.72977359 L19.6904237,19.7297736 C19.8396656,20.8242144 19.0734305,21.8324184 17.9789897,21.9816603 C17.8894322,21.9938727 17.7991497,22 17.7087633,22 L2.29123666,22 C1.18666716,22 0.291236665,21.1045695 0.291236665,20 C0.291236665,19.9096136 0.297363932,19.8193312 0.309576329,19.7297736 L2.76412178,1.72977359 C2.89925409,0.738803331 3.74564073,1.83722992e-16 4.74578212,0 Z" id="path-4"></path>
+        <filter x="-10.0%" y="-9.1%" width="120.0%" height="118.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.117647059   0 0 0 0 0.337254902  0 0 0 0.32 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.117647059   0 0 0 0 0.337254902  0 0 0 0.16 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50.0%" y="-100.0%" width="200.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#051E56" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#051E56" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50.0%" y="-100.0%" width="200.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M6.10849528,0 L17.8915047,0 C18.5810848,-1.26673803e-16 19.2220246,0.355239393 19.5875013,0.94000212 L22.0875013,4.94000212 C22.672922,5.87667518 22.3881757,7.11057594 21.4515026,7.69599661 C21.1336394,7.89466111 20.7663442,8 20.3915047,8 L3.60849528,8 C2.50392578,8 1.60849528,7.1045695 1.60849528,6 C1.60849528,5.62516057 1.71383417,5.25786532 1.91249868,4.94000212 L4.41249868,0.94000212 C4.77797538,0.355239393 5.41891522,1.01485222e-15 6.10849528,0 Z" id="path-10"></path>
+        <filter x="-8.3%" y="-25.0%" width="116.7%" height="150.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.117647059   0 0 0 0 0.337254902  0 0 0 0.32 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.117647059   0 0 0 0 0.337254902  0 0 0 0.16 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50.0%" y="-100.0%" width="200.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen-04" transform="translate(-16.000000, -16.000000)">
+            <g id="Card" transform="translate(16.000000, 16.000000)">
+                <text id="Scanzi" font-family="Manrope-Bold, Manrope" font-size="16" font-weight="bold" line-spacing="24" fill="#051E56">
+                    <tspan x="40" y="21">Scanzi</tspan>
+                </text>
+                <g id="Logo-/-Colorful-/-Logo">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Bg" fill="#051E56" xlink:href="#path-1"></use>
+                    <circle id="Bg" fill="#000000" opacity="0.639999986" filter="url(#filter-3)" mask="url(#mask-2)" cx="16" cy="28" r="12"></circle>
+                    <g id="Card" mask="url(#mask-2)">
+                        <g transform="translate(4.000000, 4.000000)">
+                            <rect id="Bg" fill="#051E56" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                            <g id="Card" stroke-width="1" fill="none" transform="translate(2.000000, 1.000000)">
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
+                                </mask>
+                                <g id="Bg">
+                                    <use fill="#FDF8FD" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-4"></use>
+                                </g>
+                                <ellipse id="Bg" fill="#FFFFFF" filter="url(#filter-7)" mask="url(#mask-5)" cx="10" cy="22" rx="6" ry="3"></ellipse>
+                                <circle id="Oval" fill="#031C54" opacity="0.319999993" mask="url(#mask-5)" cx="10" cy="21" r="1"></circle>
+                                <path d="M14.6271089,-2.5 L17.8497968,17.9324434 L2.64561833,18.5 L4.87747598,-2.0675566 L14.6271089,-2.5 Z" id="Bg" stroke="url(#linearGradient-8)" mask="url(#mask-5)"></path>
+                                <g mask="url(#mask-5)">
+                                    <g transform="translate(4.750000, 8.000000)">
+                                        <polygon id="Bg" stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0" points="1.5 0 2.22044605e-16 11 10.5 11 8.99975 0"></polygon>
+                                        <line x1="10.05765" y1="7.7496" x2="0.44265" y2="7.7496" id="Stroke-2" stroke="#041D55" stroke-width="0.5" fill="none" opacity="0.159999996" stroke-linecap="round" stroke-linejoin="round"></line>
+                                        <line x1="9.78515" y1="5.7496" x2="0.71515" y2="5.7496" id="Stroke-4" stroke="#041D55" stroke-width="0.5" fill="none" opacity="0.159999996" stroke-linecap="round" stroke-linejoin="round"></line>
+                                        <line x1="9.51265" y1="3.7496" x2="0.98765" y2="3.7496" id="Stroke-6" stroke="#041D55" stroke-width="0.5" fill="none" opacity="0.159999996" stroke-linecap="round" stroke-linejoin="round"></line>
+                                        <line x1="9.23765" y1="1.7496" x2="1.26265" y2="1.7496" id="Stroke-9" stroke="#041D55" stroke-width="0.5" fill="none" opacity="0.159999996" stroke-linecap="round" stroke-linejoin="round"></line>
+                                    </g>
+                                </g>
+                                <ellipse id="Bg" fill="#041D54" opacity="0.319999993" filter="url(#filter-9)" mask="url(#mask-5)" cx="10" cy="8" rx="6" ry="3"></ellipse>
+                            </g>
+                            <g id="Card" stroke-width="1" fill="none" transform="translate(0.000000, 1.000000)">
+                                <mask id="mask-11" fill="white">
+                                    <use xlink:href="#path-10"></use>
+                                </mask>
+                                <g id="Bg">
+                                    <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-10"></use>
+                                </g>
+                                <ellipse id="Bg" fill="#FFFFFF" opacity="0.319999993" filter="url(#filter-13)" mask="url(#mask-11)" cx="12" cy="8" rx="6" ry="3"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
