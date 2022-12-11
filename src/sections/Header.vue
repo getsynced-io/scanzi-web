@@ -6,10 +6,10 @@ import LogoSVG from "../assets/logo.svg";
   <header
     class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]"
   >
-    <div class="p-4 flex justify-between 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-[150px]">
-      <div class="logo">
+    <div class="p-4 flex justify-between 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px]">
+      <a class="block" href="/">
         <LogoSVG />
-      </div>
+      </a>
       <div class="">
         <button
           class="font-bold bg-[rgba(5,_30,_86,_0.16)] py-1 px-4 rounded-[32px] text-darkBlue"
