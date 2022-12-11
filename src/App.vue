@@ -4,7 +4,9 @@ import { onMounted } from "vue";
 // components
 import Header from "./sections/Header.vue";
 import Hero from "./sections/Hero.vue";
+import StartScanningRightAway from "./sections/StartScanningRightAway.vue";
 
+// Utilities
 import WebFont from "webfontloader";
 
 onMounted(() => {
@@ -19,4 +21,5 @@ onMounted(() => {
 <template>
   <Header />
   <Hero />
+  <StartScanningRightAway />
 </template>

@@ -10,8 +10,12 @@ import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
 </script>
 
 <template>
-  <section class="mt-8 px-4 lg:mt-16 xl:px-[150px]">
-    <div class="2xl:max-w-[1440px] mx-auto md:flex md:items-center md:justify-between md:gap-8 lg:gap-16">
+  <section
+    class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)] "
+  >
+    <div
+      class="py-8 pb-8 px-4 md:flex md:items-center md:justify-between md:gap-8 lg:gap-16 lg:py-16 xl:px-[150px] 2xl:max-w-[1440px] 2xl:mx-auto "
+    >
       <div class="lg:flex-[0_1_538px]">
         <h1
           class="text-darkBlue font-bold text-5xl leading-[64px] lg:text-[64px] lg:leading-[96px]"

@@ -4,9 +4,9 @@ import LogoSVG from "../assets/logo.svg";
 
 <template>
   <header
-    class="p-4 [box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]  xl:px-[150px]"
+    class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]"
   >
-    <div class="2xl:max-w-[1440px] 2xl:mx-auto flex justify-between">
+    <div class="p-4 flex justify-between 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-[150px]">
       <div class="logo">
         <LogoSVG />
       </div>
