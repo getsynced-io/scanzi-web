@@ -42,11 +42,12 @@ function tabsTitlesClicked(e) {
           :slides-per-view="1"
           :space-between="0"
           @slideChange="onSlideChange"
-          :breakpoints="tabsTitleBreakpoints" class="xl:px-[150px_!important] 2xl:max-w-screen-2xl 2xl:mx-auto"
+          :breakpoints="tabsTitleBreakpoints"
+          class="xl:px-[150px_!important] 2xl:max-w-screen-2xl 2xl:mx-auto"
         >
           <SwiperSlide class="cursor-pointer">
             <span
-              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl"
+              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl lg:mx-0 transition-colors"
               :class="[
                 tab === 1
                   ? 'text-darkBlue [border-bottom:1px_solid_#051E56] font-bold'
@@ -59,7 +60,7 @@ function tabsTitlesClicked(e) {
           </SwiperSlide>
           <SwiperSlide class="cursor-pointer">
             <span
-              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl"
+              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl lg:mx-0 transition-colors"
               :class="[
                 tab === 2
                   ? 'text-darkBlue font-bold [border-bottom:1px_solid_#051E56]'
@@ -72,7 +73,7 @@ function tabsTitlesClicked(e) {
           </SwiperSlide>
           <SwiperSlide class="cursor-pointer">
             <span
-              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl"
+              class="block text-xl text-center mx-4 pb-4 lg:pb-8 lg:text-2xl lg:mx-0 transition-colors"
               :class="[
                 tab === 3
                   ? 'text-darkBlue font-bold [border-bottom:1px_solid_#051E56]'
@@ -95,7 +96,9 @@ function tabsTitlesClicked(e) {
           class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
         >
           <div class="">
-            <h2 class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]">
+            <h2
+              class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
+            >
               Intelligently cleaner and clearer scans
             </h2>
             <p class="mt-4 text-base font-normal text-lightDarkBlue">
