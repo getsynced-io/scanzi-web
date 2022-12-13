@@ -89,41 +89,122 @@ function tabsTitlesClicked(e) {
           class="absolute bottom-0 left-0 w-full h-[1px] [border-bottom:1px_solid_rgba(5,_30,_86,_0.32)]"
         ></span>
       </div>
-      <div
-        class="mt-8 mx-4 md:flex md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
-      >
+      <div class="">
         <div
-          class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+          class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
+          :class="[tab === 1 ? 'md:flex' : 'hidden']"
         >
-          <div class="">
-            <h2
-              class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
-            >
-              Intelligently cleaner and clearer scans
-            </h2>
-            <p class="mt-4 text-base font-normal text-lightDarkBlue">
-              Using Scanzi, the powerful AI behind many of our intelligent
-              features, Adobe Scan corrects image perspective and sharpens
-              handwritten or printed text, while removing elements you don’t
-              want, like glare and shadow.
-            </p>
-          </div>
+          <div
+            class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+          >
+            <div class="">
+              <h2
+                class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
+              >
+                Intelligently cleaner and clearer scans
+              </h2>
+              <p class="mt-4 text-base font-normal text-lightDarkBlue">
+                Using Scanzi, the powerful AI behind many of our intelligent
+                features, Adobe Scan corrects image perspective and sharpens
+                handwritten or printed text, while removing elements you don’t
+                want, like glare and shadow.
+              </p>
+            </div>
 
-          <a href="#" class="flex mt-4 gap-2">
-            <span class="text-base font-bold text-darkBlue">Read more</span>
-            <ArrowRight />
-          </a>
+            <a href="#" class="flex mt-4 gap-2">
+              <span class="text-base font-bold text-darkBlue">Read more</span>
+              <ArrowRight />
+            </a>
+          </div>
+          <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
+            <picture>
+              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
+              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <img
+                :src="featuresIllustration"
+                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                alt=""
+              />
+            </picture>
+          </div>
         </div>
-        <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
-          <picture>
-            <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
-            <source type="image/webp" :srcset="featuresIllustrationWebp" />
-            <img
-              :src="featuresIllustration"
-              :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
-              alt=""
-            />
-          </picture>
+
+        <div
+          class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
+          :class="[tab === 2 ? 'md:flex' : 'hidden']"
+        >
+          <div
+            class="bg-red-500 p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+          >
+            <div class="">
+              <h2
+                class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
+              >
+                Intelligently cleaner and clearer scans
+              </h2>
+              <p class="mt-4 text-base font-normal text-lightDarkBlue">
+                Using Scanzi, the powerful AI behind many of our intelligent
+                features, Adobe Scan corrects image perspective and sharpens
+                handwritten or printed text, while removing elements you don’t
+                want, like glare and shadow.
+              </p>
+            </div>
+
+            <a href="#" class="flex mt-4 gap-2">
+              <span class="text-base font-bold text-darkBlue">Read more</span>
+              <ArrowRight />
+            </a>
+          </div>
+          <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
+            <picture>
+              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
+              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <img
+                :src="featuresIllustration"
+                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+
+        <div
+          class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
+          :class="[tab === 3 ? 'md:flex' : 'hidden']"
+        >
+          <div
+            class="bg-blue-500 p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+          >
+            <div class="">
+              <h2
+                class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
+              >
+                Intelligently cleaner and clearer scans
+              </h2>
+              <p class="mt-4 text-base font-normal text-lightDarkBlue">
+                Using Scanzi, the powerful AI behind many of our intelligent
+                features, Adobe Scan corrects image perspective and sharpens
+                handwritten or printed text, while removing elements you don’t
+                want, like glare and shadow.
+              </p>
+            </div>
+
+            <a href="#" class="flex mt-4 gap-2">
+              <span class="text-base font-bold text-darkBlue">Read more</span>
+              <ArrowRight />
+            </a>
+          </div>
+          <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
+            <picture>
+              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
+              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <img
+                :src="featuresIllustration"
+                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                alt=""
+              />
+            </picture>
+          </div>
         </div>
       </div>
     </div>
