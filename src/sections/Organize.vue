@@ -3,7 +3,7 @@ import organizeIllustration from "../assets/images/organize/organize-illustratio
 import organizeIllustration2x from "../assets/images/organize/organize-illustration-2x.png";
 import organizeIllustration3x from "../assets/images/organize/organize-illustration-3x.png";
 import organizeIllustrationWebp from "../assets/images/organize/organize-illustration.webp";
-import organizeIllustrationSVG from "../assets/images/organize/organize-illustration.svg";
+import organizeIllustrationSVG from "../assets/images/organize/organize-illustration.svg?svg";
 </script>
 
 <template>

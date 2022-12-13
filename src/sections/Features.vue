@@ -8,7 +8,7 @@ import ArrowRight from "../assets/icons/arrow-right.svg";
 import featuresIllustration from "../assets/images/features/features-illustration.png";
 import featuresIllustration2x from "../assets/images/features/features-illustration-2x.png";
 import featuresIllustration3x from "../assets/images/features/features-illustration-3x.png";
-import featuresIllustrationSVG from "../assets/images/features/features-illustration.svg";
+import featuresIllustrationSVG from "../assets/images/features/features-illustration.svg?svg";
 import featuresIllustrationWebp from "../assets/images/features/features-illustration.webp";
 
 const tab = ref(1);

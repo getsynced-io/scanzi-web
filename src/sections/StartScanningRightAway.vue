@@ -4,7 +4,7 @@ import scanningApp from "../assets/images/start-scanning-right-away/scanning-app
 import scanningApp2x from "../assets/images/start-scanning-right-away/scanning-app-2x.png";
 import scanningApp3x from "../assets/images/start-scanning-right-away/scanning-app-3x.png";
 import scanningAppWebp from "../assets/images/start-scanning-right-away/scanning-app.webp";
-import scanningAppSVG from "../assets/images/start-scanning-right-away/scanning-app.svg";
+import scanningAppSVG from "../assets/images/start-scanning-right-away/scanning-app.svg?svg";
 </script>
 
 <template>

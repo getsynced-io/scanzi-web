@@ -7,6 +7,7 @@ import Hero from "./sections/Hero.vue";
 import StartScanningRightAway from "./sections/StartScanningRightAway.vue";
 import Features from "./sections/Features.vue";
 import Organize from "./sections/Organize.vue";
+import Reviews from "./sections/Reviews.vue";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -27,5 +28,6 @@ onMounted(() => {
     <StartScanningRightAway />
     <Features />
     <Organize />
+    <Reviews />
   </div>
 </template>
