@@ -25,7 +25,7 @@ const tabsTitleBreakpoints = {
 };
 
 function onSlideChange(swiper) {
-  tab.value = swiper.realIndex + 1;
+  tab.value = swiper.activeIndex + 1;
 }
 
 function tabsTitlesClicked(e) {
