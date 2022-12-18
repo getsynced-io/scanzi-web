@@ -8,6 +8,7 @@ import StartScanningRightAway from "./sections/StartScanningRightAway.vue";
 import Features from "./sections/Features.vue";
 import Organize from "./sections/Organize.vue";
 import Reviews from "./sections/Reviews.vue";
+import HelpingMillions from "./sections/HelpingMillions.vue";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -22,12 +23,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-[4000px]">
+  <div class="h-[8000px]">
     <Header />
     <Hero />
     <StartScanningRightAway />
     <Features />
     <Organize />
     <Reviews />
+    <HelpingMillions />
   </div>
 </template>
