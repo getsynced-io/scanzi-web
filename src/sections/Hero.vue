@@ -2,7 +2,6 @@
 import DownloadOnAppStoreSVG from "../assets/icons/download-on-app-store.svg";
 
 // illustration
-import heroIllustrationSVG from "../assets/images/hero/hero-illustration.svg?url";
 import heroIllustrationWebp from "../assets/images/hero/hero-illustration.webp";
 import heroIllustration from "../assets/images/hero/hero-illustration.png";
 import heroIllustration2x from "../assets/images/hero/hero-illustration-2x.png";
@@ -10,9 +9,7 @@ import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
 </script>
 
 <template>
-  <section
-    class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]"
-  >
+  <section class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]">
     <div
       class="py-8 pb-8 px-4 md:flex md:items-center md:justify-between md:gap-8 lg:gap-16 lg:py-16 xl:px-[150px] 2xl:max-w-[1440px] 2xl:mx-auto"
     >
@@ -34,7 +31,6 @@ import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
       </div>
       <div class="mt-8 md:mt-0">
         <picture>
-          <source type="image/svg+xml" :srcset="heroIllustrationSVG" />
           <source type="image/webp" :srcset="heroIllustrationWebp" />
           <img
             :src="heroIllustration"

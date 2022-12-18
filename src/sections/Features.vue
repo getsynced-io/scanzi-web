@@ -196,7 +196,6 @@ function tabsTitlesClicked(e) {
           </div>
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
-              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
               <source type="image/webp" :srcset="featuresIllustrationWebp" />
               <img
                 :src="featuresIllustration"

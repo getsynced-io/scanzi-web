@@ -4,7 +4,7 @@ import scanningApp from "../assets/images/start-scanning-right-away/scanning-app
 import scanningApp2x from "../assets/images/start-scanning-right-away/scanning-app-2x.png";
 import scanningApp3x from "../assets/images/start-scanning-right-away/scanning-app-3x.png";
 import scanningAppWebp from "../assets/images/start-scanning-right-away/scanning-app.webp";
-import scanningAppSVG from "../assets/images/start-scanning-right-away/scanning-app.svg?svg";
+
 </script>
 
 <template>
@@ -40,7 +40,6 @@ import scanningAppSVG from "../assets/images/start-scanning-right-away/scanning-
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
         <picture>
-          <source type="image/svg+xml" :srcset="scanningAppSVG" />
           <source type="image/webp" :srcset="scanningAppWebp" />
           <img
             :src="scanningApp"

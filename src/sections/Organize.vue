@@ -3,7 +3,6 @@ import organizeIllustration from "../assets/images/organize/organize-illustratio
 import organizeIllustration2x from "../assets/images/organize/organize-illustration-2x.png";
 import organizeIllustration3x from "../assets/images/organize/organize-illustration-3x.png";
 import organizeIllustrationWebp from "../assets/images/organize/organize-illustration.webp";
-import organizeIllustrationSVG from "../assets/images/organize/organize-illustration.svg?svg";
 </script>
 
 <template>
@@ -39,7 +38,6 @@ import organizeIllustrationSVG from "../assets/images/organize/organize-illustra
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
         <picture>
-          <source type="image/svg+xml" :srcset="organizeIllustrationSVG" />
           <source type="image/webp" :srcset="organizeIllustrationWebp" />
           <img
             :src="organizeIllustration"
