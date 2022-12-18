@@ -28,7 +28,7 @@ import reviewsData from "../data/reviews.json";
               320: { spaceBetween: 16 },
               1024: { spaceBetween: 32 },
             }"
-            class="mx-[-1rem_!important] px-[1rem_!important] lg:mx-[-150px_!important] 2xl:mx-[-150px_!important] 2xl:px-[150px_!important]"
+            class="mx-[-1rem_!important] px-[1rem_!important] lg:mx-[-150px_!important] 2xl:mx-[-150px_!important] 2xl:px-[150px_!important] cursor-pointer"
           >
             <swiper-slide
               v-for="review in reviewsData"
