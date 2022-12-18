@@ -9,6 +9,7 @@ import Features from "./sections/Features.vue";
 import Organize from "./sections/Organize.vue";
 import Reviews from "./sections/Reviews.vue";
 import HelpingMillions from "./sections/HelpingMillions.vue";
+import AnythingInASnap from "./sections/AnythingInASnap.vue";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -31,5 +32,6 @@ onMounted(() => {
     <Organize />
     <Reviews />
     <HelpingMillions />
+    <AnythingInASnap />
   </div>
 </template>

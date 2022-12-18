@@ -23,11 +23,11 @@ import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
           You no longer need to keep piles of paper or stuff your wallet with
           receipts.
         </p>
-        <button
-          class="bg-darkBlue flex gap-[9px] px-[14px] pb-[9px] pt-[11px] rounded-2xl mt-4 lg:mt-8"
+        <a href="#"
+          class="bg-darkBlue flex gap-[9px] px-[14px] pb-[9px] pt-[11px] w-fit rounded-2xl mt-4 lg:mt-8"
         >
           <DownloadOnAppStoreSVG />
-        </button>
+        </a>
       </div>
       <div class="mt-8 md:mt-0">
         <picture>
