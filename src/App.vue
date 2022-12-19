@@ -10,6 +10,7 @@ import Organize from "./sections/Organize.vue";
 import Reviews from "./sections/Reviews.vue";
 import HelpingMillions from "./sections/HelpingMillions.vue";
 import AnythingInASnap from "./sections/AnythingInASnap.vue";
+import BeforeFooter from "./sections/BeforeFooter.vue";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -33,5 +34,6 @@ onMounted(() => {
     <Reviews />
     <HelpingMillions />
     <AnythingInASnap />
+    <BeforeFooter />
   </div>
 </template>
