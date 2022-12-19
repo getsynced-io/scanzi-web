@@ -11,6 +11,7 @@ import Reviews from "./sections/Reviews.vue";
 import HelpingMillions from "./sections/HelpingMillions.vue";
 import AnythingInASnap from "./sections/AnythingInASnap.vue";
 import BeforeFooter from "./sections/BeforeFooter.vue";
+import Footer from "./sections/Footer.vue";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -25,15 +26,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-[8000px]">
-    <Header />
-    <Hero />
-    <StartScanningRightAway />
-    <Features />
-    <Organize />
-    <Reviews />
-    <HelpingMillions />
-    <AnythingInASnap />
-    <BeforeFooter />
-  </div>
+  <Header />
+  <Hero />
+  <StartScanningRightAway />
+  <Features />
+  <Organize />
+  <Reviews />
+  <HelpingMillions />
+  <AnythingInASnap />
+  <BeforeFooter />
+  <Footer />
 </template>
