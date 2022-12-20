@@ -26,7 +26,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
         >
           Anything in a snap
         </h2>
-        <p class="text-xl text-darkBlue text-center mt-4 lg:text-2xl">
+        <p class="text-xl text-lightDarkBlue text-center mt-4 lg:text-2xl">
           With Scanzi, easily capture and convert documents, forms, business
           cards and whiteboards into high-quality PDFs.
         </p>

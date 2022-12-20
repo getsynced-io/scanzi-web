@@ -16,7 +16,7 @@ import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millio
           <h2 class="text-darkBlue font-bold text-2xl lg:text-[32px] lg:leading-[48px]">
             Helps millions of users handle tasks on the go
           </h2>
-          <p class="text-base text-darkBlue font-normal mt-4">
+          <p class="text-base text-lightDarkBlue font-normal mt-4">
             Based on a self-learning neural network, algorithms of recognition
             precisely detect borders and crop docs without quality loss.
           </p>
