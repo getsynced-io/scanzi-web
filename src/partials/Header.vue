@@ -1,5 +1,8 @@
 <script setup>
-import LogoSVG from "../assets/logo.svg";
+import logoWEBP from "../assets/logo/logo.webp";
+import logo from "../assets/logo/logo.png";
+import logo2x from "../assets/logo/logo-2x.png";
+import logo3x from "../assets/logo/logo-3x.png";
 
 import { RouterLink } from "vue-router";
 </script>
@@ -11,8 +14,15 @@ import { RouterLink } from "vue-router";
     <div
       class="p-4 flex justify-between 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px]"
     >
-      <RouterLink class="block" to="/">
-        <LogoSVG />
+      <RouterLink to="/">
+        <picture>
+          <source :srcset="logoWEBP" type="image/webp" />
+          <img
+            :src="logo"
+            alt=""
+            :srcset="`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x`"
+          />
+        </picture>
       </RouterLink>
       <div class="">
         <button
