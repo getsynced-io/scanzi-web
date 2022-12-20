@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 // data
-import reviewsData from "../data/reviews.json";
+import reviewsData from "../../data/reviews.json";
 </script>
 
 <template>

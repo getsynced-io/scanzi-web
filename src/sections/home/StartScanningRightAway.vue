@@ -1,10 +1,9 @@
 <script setup>
 // illustration
-import scanningApp from "../assets/images/start-scanning-right-away/scanning-app.png";
-import scanningApp2x from "../assets/images/start-scanning-right-away/scanning-app-2x.png";
-import scanningApp3x from "../assets/images/start-scanning-right-away/scanning-app-3x.png";
-import scanningAppWebp from "../assets/images/start-scanning-right-away/scanning-app.webp";
-
+import scanningApp from "../../assets/images/start-scanning-right-away/scanning-app.png";
+import scanningApp2x from "../../assets/images/start-scanning-right-away/scanning-app-2x.png";
+import scanningApp3x from "../../assets/images/start-scanning-right-away/scanning-app-3x.png";
+import scanningAppWebp from "../../assets/images/start-scanning-right-away/scanning-app.webp";
 </script>
 
 <template>

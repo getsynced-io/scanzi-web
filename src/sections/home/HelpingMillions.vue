@@ -1,9 +1,9 @@
 <script setup>
-import ArrowRight from "../assets/icons/arrow-right.svg";
-import helpingMillionsIllustrationWEBP from "../assets/images/helping-millions/helping-millions-illustration.webp";
-import helpingMillionsIllustrationPNG from "../assets/images/helping-millions/helping-millions-illustration.png";
-import helpingMillionsIllustrationPNG2x from "../assets/images/helping-millions/helping-millions-illustration-2x.png";
-import helpingMillionsIllustrationPNG3x from "../assets/images/helping-millions/helping-millions-illustration-3x.png";
+import ArrowRight from "../../assets/icons/arrow-right.svg";
+import helpingMillionsIllustrationWEBP from "../../assets/images/helping-millions/helping-millions-illustration.webp";
+import helpingMillionsIllustrationPNG from "../../assets/images/helping-millions/helping-millions-illustration.png";
+import helpingMillionsIllustrationPNG2x from "../../assets/images/helping-millions/helping-millions-illustration-2x.png";
+import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millions/helping-millions-illustration-3x.png";
 </script>
 
 <template>

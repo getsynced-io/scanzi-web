@@ -1,11 +1,11 @@
 <script setup>
-import DownloadOnAppStoreSVG from "../assets/icons/download-on-app-store.svg";
+import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg";
 
 // illustration
-import heroIllustrationWebp from "../assets/images/hero/hero-illustration.webp";
-import heroIllustration from "../assets/images/hero/hero-illustration.png";
-import heroIllustration2x from "../assets/images/hero/hero-illustration-2x.png";
-import heroIllustration3x from "../assets/images/hero/hero-illustration-3x.png";
+import heroIllustrationWebp from "../../assets/images/hero/hero-illustration.webp";
+import heroIllustration from "../../assets/images/hero/hero-illustration.png";
+import heroIllustration2x from "../../assets/images/hero/hero-illustration-2x.png";
+import heroIllustration3x from "../../assets/images/hero/hero-illustration-3x.png";
 </script>
 
 <template>

@@ -1,8 +1,8 @@
 <script setup>
-import organizeIllustration from "../assets/images/organize/organize-illustration.png";
-import organizeIllustration2x from "../assets/images/organize/organize-illustration-2x.png";
-import organizeIllustration3x from "../assets/images/organize/organize-illustration-3x.png";
-import organizeIllustrationWebp from "../assets/images/organize/organize-illustration.webp";
+import organizeIllustration from "../../assets/images/organize/organize-illustration.png";
+import organizeIllustration2x from "../../assets/images/organize/organize-illustration-2x.png";
+import organizeIllustration3x from "../../assets/images/organize/organize-illustration-3x.png";
+import organizeIllustrationWebp from "../../assets/images/organize/organize-illustration.webp";
 </script>
 
 <template>

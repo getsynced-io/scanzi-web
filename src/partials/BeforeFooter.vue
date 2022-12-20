@@ -1,5 +1,7 @@
 <script setup>
 import LogoSVG from "../assets/logo.svg";
+
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -7,7 +9,9 @@ import LogoSVG from "../assets/logo.svg";
     <div
       class="py-4 px-4 flex justify-center lg:items-center lg:gap-16 xl:px-[150px] 2xl:max-w-screen-2xl 2xl:mx-auto"
     >
-      <LogoSVG />
+      <RouterLink to="/">
+        <LogoSVG />
+      </RouterLink>
     </div>
   </div>
 </template>

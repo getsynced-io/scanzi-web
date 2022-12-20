@@ -1,17 +1,13 @@
 <script setup>
 import { onMounted } from "vue";
 
-// components
-import Header from "./sections/Header.vue";
-import Hero from "./sections/Hero.vue";
-import StartScanningRightAway from "./sections/StartScanningRightAway.vue";
-import Features from "./sections/Features.vue";
-import Organize from "./sections/Organize.vue";
-import Reviews from "./sections/Reviews.vue";
-import HelpingMillions from "./sections/HelpingMillions.vue";
-import AnythingInASnap from "./sections/AnythingInASnap.vue";
-import BeforeFooter from "./sections/BeforeFooter.vue";
-import Footer from "./sections/Footer.vue";
+// partials
+import Header from "./partials/Header.vue";
+import BeforeFooter from "./partials/BeforeFooter.vue";
+import Footer from "./partials/Footer.vue";
+
+// vue router
+import { RouterView } from "vue-router";
 
 // Utilities
 import WebFont from "webfontloader";
@@ -27,13 +23,7 @@ onMounted(() => {
 
 <template>
   <Header />
-  <Hero />
-  <StartScanningRightAway />
-  <Features />
-  <Organize />
-  <Reviews />
-  <HelpingMillions />
-  <AnythingInASnap />
+  <RouterView />
   <BeforeFooter />
   <Footer />
 </template>
