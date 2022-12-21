@@ -10,7 +10,6 @@ import Home from "./pages/Home.vue";
 import PrivacyPolicy from "./pages/PrivacyPolicy.vue";
 import TermsOfUse from "./pages/TermsOfUse.vue";
 
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -21,11 +20,16 @@ const router = createRouter({
     {
       path: "/privacy-policy",
       component: PrivacyPolicy,
-    },{
+    },
+    {
       path: "/terms-of-use",
-      component: TermsOfUse
-    }
+      component: TermsOfUse,
+    },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 };
+  },
 });
 
 createApp(App).use(router).mount("#app");
