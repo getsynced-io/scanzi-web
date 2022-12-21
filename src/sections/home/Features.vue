@@ -124,6 +124,7 @@ function tabsTitlesClicked(e) {
                 :src="featuresIllustration"
                 :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
                 alt=""
+                class="max-w-none w-full"
               />
             </picture>
           </div>
@@ -163,6 +164,7 @@ function tabsTitlesClicked(e) {
                 :src="featuresIllustration"
                 :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
                 alt=""
+                class="max-w-none w-full"
               />
             </picture>
           </div>
@@ -201,6 +203,7 @@ function tabsTitlesClicked(e) {
                 :src="featuresIllustration"
                 :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
                 alt=""
+                class="max-w-none w-full"
               />
             </picture>
           </div>

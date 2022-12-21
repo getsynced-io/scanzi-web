@@ -44,6 +44,7 @@ import scanningAppWebp from "../../assets/images/start-scanning-right-away/scann
             :src="scanningApp"
             :srcset="`${scanningApp} 1x, ${scanningApp2x} 2x, ${scanningApp3x} 3x`"
             alt=""
+            class="max-w-none w-full"
           />
         </picture>
       </div>

@@ -37,6 +37,7 @@ import heroIllustration3x from "../../assets/images/hero/hero-illustration-3x.pn
             alt=""
             :srcset="`${heroIllustration} 1x, ${heroIllustration2x} 2x, ${heroIllustration3x} 3x`"
             loading="lazy"
+            class="max-w-none w-full"
           />
         </picture>
       </div>

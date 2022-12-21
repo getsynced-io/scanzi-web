@@ -6,8 +6,10 @@ import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 // pages
-import PrivacyPolicy from "./pages/PrivacyPolicy.vue";
 import Home from "./pages/Home.vue";
+import PrivacyPolicy from "./pages/PrivacyPolicy.vue";
+import TermsOfUse from "./pages/TermsOfUse.vue";
+
 
 const router = createRouter({
   history: createWebHistory(),
@@ -19,7 +21,10 @@ const router = createRouter({
     {
       path: "/privacy-policy",
       component: PrivacyPolicy,
-    },
+    },{
+      path: "/terms-of-use",
+      component: TermsOfUse
+    }
   ],
 });
 

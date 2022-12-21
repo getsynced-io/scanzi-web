@@ -43,6 +43,7 @@ import organizeIllustrationWebp from "../../assets/images/organize/organize-illu
             :src="organizeIllustration"
             :srcset="`${organizeIllustration} 1x, ${organizeIllustration2x} 2x, ${organizeIllustration3x} 3x`"
             alt=""
+            class="max-w-none w-full"
           />
         </picture>
       </div>

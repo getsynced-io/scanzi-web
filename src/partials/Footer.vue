@@ -16,9 +16,7 @@ import { RouterLink } from "vue-router";
           class="text-darkBlue font-bold text-base"
           >Privacy Policy</RouterLink
         >
-        <RouterLink
-          to="/privacy-policy"
-          class="text-darkBlue font-bold text-base"
+        <RouterLink to="/terms-of-use" class="text-darkBlue font-bold text-base"
           >Terms of Use</RouterLink
         >
       </div>
