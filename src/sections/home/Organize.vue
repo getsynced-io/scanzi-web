@@ -20,25 +20,55 @@ const changeIndex = (index) => {
     >
       <div class="md:order-2 md:flex-1">
         <ul
-          class="flex flex-col mt-4 gap-4 [&_p]:text-lightDarkBlue [&_p]:text-xl [&_p]:font-bold lg:[&_p]:text-2xl"
+          class="flex flex-col mt-4 gap-4 [&_p]:cursor-pointer [&_p]:text-xl [&_p]:font-bold lg:[&_p]:text-2xl"
         >
           <li class="">
-            <p class="">Organize your scans</p>
+            <p
+              :class="activePart === 1 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(1)"
+            >
+              Organize your scans
+            </p>
           </li>
           <li class="">
-            <p class="">Manage documents—all in one place</p>
+            <p
+              :class="activePart === 2 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(2)"
+            >
+              Manage documents—all in one place
+            </p>
           </li>
           <li class="">
-            <p class="">Automatically apply perspective transformation</p>
+            <p
+              :class="activePart === 3 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(3)"
+            >
+              Automatically apply perspective transformation
+            </p>
           </li>
           <li class="">
-            <p class="">Add a signature and a stamp from a photo</p>
+            <p
+              :class="activePart === 4 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(4)"
+            >
+              Add a signature and a stamp from a photo
+            </p>
           </li>
           <li class="">
-            <p class="">Scan your documents, IDs, receipts, and more</p>
+            <p
+              :class="activePart === 5 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(5)"
+            >
+              Scan your documents, IDs, receipts, and more
+            </p>
           </li>
           <li class="">
-            <p class="">Easily extract text from a scanned page</p>
+            <p
+              :class="activePart === 6 ? 'text-darkBlue' : 'text-lightDarkBlue'"
+              @click="changeIndex(6)"
+            >
+              Easily extract text from a scanned page
+            </p>
           </li>
         </ul>
       </div>
