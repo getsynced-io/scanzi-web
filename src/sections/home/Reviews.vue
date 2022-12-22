@@ -6,6 +6,16 @@ import "swiper/css/autoplay";
 
 // data
 import reviewsData from "../../data/reviews.json";
+
+let swiperObj;
+
+const onInit = (swiper) => {
+  swiperObj = swiper;
+};
+
+window.addEventListener("scroll", () => {
+  swiperObj.autoplay.pause();
+});
 </script>
 
 <template>
@@ -17,7 +27,7 @@ import reviewsData from "../../data/reviews.json";
         <h1
           class="font-bold text-[32px] text-darkBlue text-center lg:text-5xl lg:leading-[64px] 2xl:max-w-[749px] 2xl:mx-auto"
         >
-          Thousands of hundreds positive reviews and ratings
+          A significant number of positive reviews and ratings
         </h1>
         <div class="mt-8 lg:mt-16">
           <Swiper
@@ -28,15 +38,16 @@ import reviewsData from "../../data/reviews.json";
               320: { spaceBetween: 16 },
               1024: { spaceBetween: 32 },
             }"
+            @swiper="onInit"
             class="mx-[-1rem_!important] px-[1rem_!important] lg:mx-[-150px_!important] 2xl:mx-[-150px_!important] 2xl:px-[150px_!important] cursor-pointer"
           >
             <swiper-slide
               v-for="review in reviewsData"
               :key="review.id"
-              class="w-[256px_!important] h-[232px_!important] flex items-end lg:w-[358px_!important] lg:h-[280px_!important]"
+              class="w-[256px_!important] h-[328px_!important] flex items-end lg:w-[358px_!important] lg:h-[328px_!important]"
             >
               <div
-                class="bg-white pt-12 pb-4 px-4 rounded-2xl h-[200px] w-full flex flex-col justify-between relative lg:h-[248px] lg:pt-16 lg:pb-8 lg:px-8"
+                class="bg-white pt-12 pb-4 px-4 rounded-2xl h-[296px] w-full flex flex-col justify-between relative lg:h-[296px] lg:pt-16 lg:pb-8 lg:px-8"
               >
                 <picture class="absolute top-[-32px] left-4 lg:left-8">
                   <source

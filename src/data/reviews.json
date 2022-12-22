@@ -2,25 +2,25 @@
   {
     "id": 1,
     "name": "Iva",
-    "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis tortor sollicitudin condimentum accumsan.",
+    "feedback": "This document scanner app is 💯 user-friendly and makes it easy to scan documents quickly and accurately. I love that I can store all of my documents in one place and access them anytime from my phone. 📱",
     "tag": "@IvaLamb"
   },
   {
     "id": 2,
     "name": "Aiden",
-    "feedback": "Lorem ipsum dolor sit amet, consectetur.",
+    "feedback": "I am so glad I found this app! It has OCR functionality, which makes it easy to search through my scanned documents for specific keywords.",
     "tag": "@AidenJennings"
   },
   {
     "id": 3,
     "name": "Manuel",
-    "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.",
+    "feedback": "I recently started using a document scanner app to digitize all of my important papers, and I am so glad I did. 🙏 The app is user-friendly, and the scans appear clear and crisp.",
     "tag": "@ManuelWaters"
   },
   {
     "id": 4,
     "name": "Herbet",
-    "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis tortor sollicitudin condimentum accumsan.",
+    "feedback": "It has saved me so much time and hassle, and I can be more organized and efficient.",
     "tag": "@HerbertStevens"
   }
 ]
