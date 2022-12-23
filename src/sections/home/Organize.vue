@@ -20,7 +20,7 @@ const changeIndex = (index) => {
     >
       <div class="md:order-2 md:flex-1">
         <ul
-          class="flex flex-col mt-4 gap-4 [&_p]:cursor-pointer [&_p]:text-xl [&_p]:font-bold lg:[&_p]:text-2xl"
+          class="flex flex-col gap-4 [&_p]:cursor-pointer [&_p]:text-xl [&_p]:font-bold lg:[&_p]:text-2xl"
         >
           <li class="">
             <p
