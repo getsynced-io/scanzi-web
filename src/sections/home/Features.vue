@@ -5,11 +5,24 @@ import "swiper/css";
 
 // icons/images
 import ArrowRight from "../../assets/icons/arrow-right.svg";
-import featuresIllustration from "../../assets/images/features/features-illustration.png";
-import featuresIllustration2x from "../../assets/images/features/features-illustration-2x.png";
-import featuresIllustration3x from "../../assets/images/features/features-illustration-3x.png";
-import featuresIllustrationSVG from "../../assets/images/features/features-illustration.svg?svg";
-import featuresIllustrationWebp from "../../assets/images/features/features-illustration.webp";
+
+// adjust your images app view
+import adjustYourImagesAppViewPNG from "../../assets/images/features/adjust-your-images-app-view.png";
+import adjustYourImagesAppViewPNG2x from "../../assets/images/features/adjust-your-images-app-view-2x.png";
+import adjustYourImagesAppViewPNG3x from "../../assets/images/features/adjust-your-images-app-view-3x.png";
+import adjustYourImagesAppViewWEBP2x from "../../assets/images/features/adjust-your-images-app-view-2x.webp";
+
+// artistic touches app view
+import artisticTouchesAppViewPNG from "../../assets/images/features/artistic-touches-app-view.png";
+import artisticTouchesAppViewPNG2x from "../../assets/images/features/artistic-touches-app-view-2x.png";
+import artisticTouchesAppViewPNG3x from "../../assets/images/features/artistic-touches-app-view-3x.png";
+import artisticTouchesAppViewWEBP2x from "../../assets/images/features/artistic-touches-app-view-2x.webp";
+
+// sign documents digitally app view
+import signDocumentsDigitallyAppViewPNG from "../../assets/images/features/sign-documents-digitally-app-view.png";
+import signDocumentsDigitallyAppViewPNG2x from "../../assets/images/features/sign-documents-digitally-app-view-2x.png";
+import signDocumentsDigitallyAppViewPNG3x from "../../assets/images/features/sign-documents-digitally-app-view-3x.png";
+import signDocumentsDigitallyAppViewWEBP2x from "../../assets/images/features/sign-documents-digitally-app-view-2x.webp";
 
 const tab = ref(1);
 
@@ -37,6 +50,7 @@ function tabsTitlesClicked(e) {
 <template>
   <section class="[box-shadow:_inset_0_-1px_rgba(5,_30,_86,_0.16)]">
     <div class="py-8 lg:py-16">
+      <!-- tabs -->
       <div class="relative">
         <Swiper
           :slides-per-view="1"
@@ -55,7 +69,7 @@ function tabsTitlesClicked(e) {
               ]"
               data-tab="1"
               @click="tabsTitlesClicked"
-              >AI-enhanced scans</span
+              >Adjust your images</span
             >
           </SwiperSlide>
           <SwiperSlide class="cursor-pointer">
@@ -68,7 +82,7 @@ function tabsTitlesClicked(e) {
               ]"
               data-tab="2"
               @click="tabsTitlesClicked"
-              >Save pages as JPEG</span
+              >Artistic touches</span
             >
           </SwiperSlide>
           <SwiperSlide class="cursor-pointer">
@@ -81,7 +95,7 @@ function tabsTitlesClicked(e) {
               ]"
               data-tab="3"
               @click="tabsTitlesClicked"
-              >Enhance your PDFs</span
+              >Sign documents digitally</span
             >
           </SwiperSlide>
         </Swiper>
@@ -89,6 +103,8 @@ function tabsTitlesClicked(e) {
           class="absolute bottom-0 left-0 w-full h-[1px] [border-bottom:1px_solid_rgba(5,_30,_86,_0.32)]"
         ></span>
       </div>
+
+      <!-- tabs' content -->
       <div class="">
         <div
           class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
@@ -101,13 +117,14 @@ function tabsTitlesClicked(e) {
               <h2
                 class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
               >
-                Intelligently cleaner and clearer scans
+                Customize your scans
               </h2>
               <p class="mt-4 text-base font-normal text-lightDarkBlue">
-                Using Scanzi, the powerful AI behind many of our intelligent
-                features, Adobe Scan corrects image perspective and sharpens
-                handwritten or printed text, while removing elements you don’t
-                want, like glare and shadow.
+                With our app, you have complete control over your scans. Whether
+                you want to adjust the brightness, contrast, color balance, or
+                any other aspect, our app makes it easy to get the exact look
+                and feel you want. Simply load your scan, make your adjustments,
+                and save your changes. It's that simple!
               </p>
             </div>
 
@@ -116,13 +133,16 @@ function tabsTitlesClicked(e) {
               <ArrowRight />
             </a>
           </div>
+
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
-              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
-              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <source
+                type="image/webp"
+                :srcset="adjustYourImagesAppViewWEBP2x"
+              />
               <img
-                :src="featuresIllustration"
-                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                :src="adjustYourImagesAppViewPNG"
+                :srcset="`${adjustYourImagesAppViewPNG}, ${adjustYourImagesAppViewPNG2x} 2x, ${adjustYourImagesAppViewPNG3x} 3x`"
                 alt=""
                 class="max-w-none w-full"
               />
@@ -135,19 +155,21 @@ function tabsTitlesClicked(e) {
           :class="[tab === 2 ? 'md:flex' : 'hidden']"
         >
           <div
-            class="bg-red-500 p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+            class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
           >
             <div class="">
               <h2
                 class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
               >
-                Intelligently cleaner and clearer scans
+                Image filters for an elegant look
               </h2>
               <p class="mt-4 text-base font-normal text-lightDarkBlue">
-                Using Scanzi, the powerful AI behind many of our intelligent
-                features, Adobe Scan corrects image perspective and sharpens
-                handwritten or printed text, while removing elements you don’t
-                want, like glare and shadow.
+                Get the refined and sophisticated look you desire with our
+                elegant image filters. From soft and subtle to bold and
+                striking, our filters offer a wide range of options to enhance
+                the beauty and style of your photos. With just a few clicks, you
+                can transform your images into stunning works of art that exude
+                class and grace.
               </p>
             </div>
 
@@ -158,11 +180,13 @@ function tabsTitlesClicked(e) {
           </div>
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
-              <source type="image/svg+xml" :srcset="featuresIllustrationSVG" />
-              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <source
+                type="image/webp"
+                :srcset="artisticTouchesAppViewWEBP2x"
+              />
               <img
-                :src="featuresIllustration"
-                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                :src="artisticTouchesAppViewPNG"
+                :srcset="`${artisticTouchesAppViewPNG}, ${artisticTouchesAppViewPNG2x} 2x, ${artisticTouchesAppViewPNG3x} 3x`"
                 alt=""
                 class="max-w-none w-full"
               />
@@ -175,19 +199,20 @@ function tabsTitlesClicked(e) {
           :class="[tab === 3 ? 'md:flex' : 'hidden']"
         >
           <div
-            class="bg-blue-500 p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
+            class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
           >
             <div class="">
               <h2
                 class="text-[2rem] leading-[3rem] font-bold text-darkBlue lg:text-5xl lg:leading-[64px]"
               >
-                Intelligently cleaner and clearer scans
+                The easy way to sign documents
               </h2>
               <p class="mt-4 text-base font-normal text-lightDarkBlue">
-                Using Scanzi, the powerful AI behind many of our intelligent
-                features, Adobe Scan corrects image perspective and sharpens
-                handwritten or printed text, while removing elements you don’t
-                want, like glare and shadow.
+                Gone are the days of printing, signing, and scanning documents.
+                With our app, you can quickly and securely sign documents
+                digitally from anywhere at any time. Whether at the office, on
+                the go, or working remotely, our app makes signing and sending
+                documents convenient and hassle-free.
               </p>
             </div>
 
@@ -198,10 +223,13 @@ function tabsTitlesClicked(e) {
           </div>
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
-              <source type="image/webp" :srcset="featuresIllustrationWebp" />
+              <source
+                type="image/webp"
+                :srcset="signDocumentsDigitallyAppViewWEBP2x"
+              />
               <img
-                :src="featuresIllustration"
-                :srcset="`${featuresIllustration} 1x, ${featuresIllustration2x} 2x, ${featuresIllustration3x} 3x`"
+                :src="signDocumentsDigitallyAppViewPNG"
+                :srcset="`${signDocumentsDigitallyAppViewPNG}, ${signDocumentsDigitallyAppViewPNG2x} 2x, ${signDocumentsDigitallyAppViewPNG3x} 3x`"
                 alt=""
                 class="max-w-none w-full"
               />
