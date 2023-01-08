@@ -1,11 +1,37 @@
 <script setup>
 import { ref } from "vue";
 
-// illustration
-import scanningApp from "../../assets/images/start-scanning-right-away/scanning-app.png";
-import scanningApp2x from "../../assets/images/start-scanning-right-away/scanning-app-2x.png";
-import scanningApp3x from "../../assets/images/start-scanning-right-away/scanning-app-3x.png";
-import scanningAppWebp from "../../assets/images/start-scanning-right-away/scanning-app.webp";
+// assets/images
+
+// start scanning right away images
+import scanningAppMainViewPNG from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view.png";
+import scanningAppMainViewPNG2x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view-2x.png";
+import scanningAppMainViewPNG3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view-3x.png";
+
+// create a system for you documents images
+import createASystemViewPNG from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view.png";
+import createASystemViewPNG2x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view-2x.png";
+import createASystemViewPNG3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view-3x.png";
+
+// utilize a variety of filters
+import utilizeAVarietyOfFiltersViewPNG from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view.png";
+import utilizeAVarietyOfFiltersViewPNG2x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view-2x.png";
+import utilizeAVarietyOfFiltersViewPNG3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view-3x.png";
+
+// set up and structure in folders images
+import setUpAndStructureInFoldersViewPNG from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view.png";
+import setUpAndStructureInFoldersViewPNG2x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view-2x.png";
+import setUpAndStructureInFoldersViewPNG3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view-3x.png";
+
+// use a useful and efficient camera images
+import useAUsefulAndEfficientCameraViewPNG from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view.png";
+import useAUsefulAndEfficientCameraViewPNG2x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view-2x.png";
+import useAUsefulAndEfficientCameraViewPNG3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view-3x.png";
+
+// one clicking scanning, straightening, cropping, and OCR
+import oneClickScanningStraighteningCroppingAndOCRViewPNG from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view.png";
+import oneClickScanningStraighteningCroppingAndOCRViewPNG2x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view-2x.png";
+import oneClickScanningStraighteningCroppingAndOCRViewPNG3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view-3x.png";
 
 const activePart = ref(1);
 
@@ -36,15 +62,15 @@ const changeIndex = (index) => {
               :class="activePart === 2 ? 'text-darkBlue' : 'text-lightDarkBlue'"
               @click="changeIndex(2)"
             >
-              Scan, Deskew, Crop and OCR with one click
+              Create a system for your documents
             </p>
           </li>
-          <li>
+          <li class="">
             <p
               :class="activePart === 3 ? 'text-darkBlue' : 'text-lightDarkBlue'"
               @click="changeIndex(3)"
             >
-              Use your iPhone to scan on the go
+              Utilize a variety of filters
             </p>
           </li>
           <li class="">
@@ -52,7 +78,7 @@ const changeIndex = (index) => {
               :class="activePart === 4 ? 'text-darkBlue' : 'text-lightDarkBlue'"
               @click="changeIndex(4)"
             >
-              Save as a PDF file with an invisible text layer
+              Set up and structure in folders
             </p>
           </li>
           <li class="">
@@ -60,7 +86,7 @@ const changeIndex = (index) => {
               :class="activePart === 5 ? 'text-darkBlue' : 'text-lightDarkBlue'"
               @click="changeIndex(5)"
             >
-              Super high compression for monochrome scans
+              Use a useful and efficient camera
             </p>
           </li>
           <li class="">
@@ -68,7 +94,7 @@ const changeIndex = (index) => {
               :class="activePart === 6 ? 'text-darkBlue' : 'text-lightDarkBlue'"
               @click="changeIndex(6)"
             >
-              Create custom OCR workflows
+              One-click scanning, straightening, cropping and OCR
             </p>
           </li>
         </ul>
@@ -76,11 +102,55 @@ const changeIndex = (index) => {
       <div
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
-        <picture>
-          <source type="image/webp" :srcset="scanningAppWebp" />
+        <picture :class="activePart === 1 ? 'block' : 'hidden'">
           <img
-            :src="scanningApp"
-            :srcset="`${scanningApp} 1x, ${scanningApp2x} 2x, ${scanningApp3x} 3x`"
+            :src="scanningAppMainViewPNG"
+            :srcset="`${scanningAppMainViewPNG} 1x, ${scanningAppMainViewPNG2x} 2x, ${scanningAppMainViewPNG3x} 3x`"
+            alt=""
+            class="max-w-none w-full"
+          />
+        </picture>
+
+        <picture :class="activePart === 2 ? 'block' : 'hidden'">
+          <img
+            :src="createASystemViewPNG"
+            :srcset="`${createASystemViewPNG} 1x, ${createASystemViewPNG2x} 2x, ${createASystemViewPNG3x} 3x`"
+            alt=""
+            class="max-w-none w-full"
+          />
+        </picture>
+
+        <picture :class="activePart === 3 ? 'block' : 'hidden'">
+          <img
+            :src="utilizeAVarietyOfFiltersViewPNG"
+            :srcset="`${utilizeAVarietyOfFiltersViewPNG} 1x, ${utilizeAVarietyOfFiltersViewPNG2x} 2x, ${utilizeAVarietyOfFiltersViewPNG3x} 3x`"
+            alt=""
+            class="max-w-none w-full"
+          />
+        </picture>
+
+        <picture :class="activePart === 4 ? 'block' : 'hidden'">
+          <img
+            :src="setUpAndStructureInFoldersViewPNG"
+            :srcset="`${setUpAndStructureInFoldersViewPNG} 1x, ${setUpAndStructureInFoldersViewPNG2x} 2x, ${setUpAndStructureInFoldersViewPNG3x} 3x`"
+            alt=""
+            class="max-w-none w-full"
+          />
+        </picture>
+
+        <picture :class="activePart === 5 ? 'block' : 'hidden'">
+          <img
+            :src="useAUsefulAndEfficientCameraViewPNG"
+            :srcset="`${useAUsefulAndEfficientCameraViewPNG} 1x, ${useAUsefulAndEfficientCameraViewPNG2x} 2x, ${useAUsefulAndEfficientCameraViewPNG3x} 3x`"
+            alt=""
+            class="max-w-none w-full"
+          />
+        </picture>
+
+        <picture :class="activePart === 6 ? 'block' : 'hidden'">
+          <img
+            :src="oneClickScanningStraighteningCroppingAndOCRViewPNG"
+            :srcset="`${oneClickScanningStraighteningCroppingAndOCRViewPNG} 1x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG2x} 2x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG3x} 3x`"
             alt=""
             class="max-w-none w-full"
           />
