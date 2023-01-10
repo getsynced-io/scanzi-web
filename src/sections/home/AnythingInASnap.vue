@@ -3,6 +3,8 @@ import anythingInASnapWEBP from "../../assets/images/anything-in-a-snap/anything
 import anythingInASnapPNG from "../../assets/images/anything-in-a-snap/anything-in-a-snap.png";
 import anythingInASnapPNG2x from "../../assets/images/anything-in-a-snap/anything-in-a-snap-2x.png";
 import anythingInASnapPNG3x from "../../assets/images/anything-in-a-snap/anything-in-a-snap-3x.png";
+
+// icons
 import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg";
 </script>
 

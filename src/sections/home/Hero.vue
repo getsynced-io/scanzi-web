@@ -2,10 +2,10 @@
 import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg";
 
 // illustration
-import heroIllustrationWebp from "../../assets/images/hero/hero-illustration.webp";
-import heroIllustration from "../../assets/images/hero/hero-illustration.png";
-import heroIllustration2x from "../../assets/images/hero/hero-illustration-2x.png";
-import heroIllustration3x from "../../assets/images/hero/hero-illustration-3x.png";
+import heroIllustrationWEBP from "../../assets/images/hero/hero-illustration.webp";
+import heroIllustrationPNG from "../../assets/images/hero/hero-illustration.png";
+import heroIllustrationPNG2x from "../../assets/images/hero/hero-illustration-2x.png";
+import heroIllustrationPNG3x from "../../assets/images/hero/hero-illustration-3x.png";
 </script>
 
 <template>
@@ -23,7 +23,8 @@ import heroIllustration3x from "../../assets/images/hero/hero-illustration-3x.pn
           You no longer need to keep piles of paper or stuff your wallet with
           receipts.
         </p>
-        <a href="#"
+        <a
+          href="#"
           class="bg-darkBlue flex gap-[9px] px-[14px] pb-[9px] pt-[11px] w-fit rounded-2xl mt-4 lg:mt-8"
         >
           <DownloadOnAppStoreSVG />
@@ -31,11 +32,11 @@ import heroIllustration3x from "../../assets/images/hero/hero-illustration-3x.pn
       </div>
       <div class="mt-8 md:mt-0">
         <picture>
-          <source type="image/webp" :srcset="heroIllustrationWebp" />
+          <source type="image/webp" :srcset="heroIllustrationWEBP" />
           <img
-            :src="heroIllustration"
+            :src="heroIllustrationPNG"
             alt=""
-            :srcset="`${heroIllustration} 1x, ${heroIllustration2x} 2x, ${heroIllustration3x} 3x`"
+            :srcset="`${heroIllustrationPNG}, ${heroIllustrationPNG2x} 2x, ${heroIllustrationPNG3x} 3x`"
             loading="lazy"
             class="max-w-none w-full"
           />
