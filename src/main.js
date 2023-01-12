@@ -1,5 +1,6 @@
 import { createApp } from "vue";
-import "./index.css";
+
+// App Component
 import App from "./App.vue";
 
 // vue router
@@ -9,6 +10,10 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
 import PrivacyPolicy from "./pages/PrivacyPolicy.vue";
 import TermsOfUse from "./pages/TermsOfUse.vue";
+
+// css
+import "./index.css";
+import "animate.css";
 
 const router = createRouter({
   history: createWebHistory(),

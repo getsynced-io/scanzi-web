@@ -37,13 +37,10 @@ const tabsTitleBreakpoints = {
   },
 };
 
-function onSlideChange(swiper) {
-  tab.value = swiper.activeIndex + 1;
-}
-
 function tabsTitlesClicked(e) {
   const target = e.currentTarget;
-  tab.value = Number(target.getAttribute("data-tab"));
+  const tabValue = Number(target.getAttribute("data-tab"));
+  tab.value = tabValue;
 }
 </script>
 
@@ -55,7 +52,6 @@ function tabsTitlesClicked(e) {
         <Swiper
           :slides-per-view="1"
           :space-between="0"
-          @slideChange="onSlideChange"
           :breakpoints="tabsTitleBreakpoints"
           class="xl:px-[150px_!important] 2xl:max-w-screen-2xl 2xl:mx-auto"
         >
@@ -108,7 +104,9 @@ function tabsTitlesClicked(e) {
       <div class="">
         <div
           class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
-          :class="[tab === 1 ? 'md:flex' : 'hidden']"
+          :class="[
+            tab === 1 ? 'md:flex animate__animated animate__fadeIn' : 'hidden',
+          ]"
         >
           <div
             class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
@@ -152,7 +150,9 @@ function tabsTitlesClicked(e) {
 
         <div
           class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
-          :class="[tab === 2 ? 'md:flex' : 'hidden']"
+          :class="[
+            tab === 2 ? 'md:flex animate__animated animate__fadeIn' : 'hidden',
+          ]"
         >
           <div
             class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
@@ -196,7 +196,9 @@ function tabsTitlesClicked(e) {
 
         <div
           class="mt-8 mx-4 md:[&>*]:flex-1 md:gap-8 md:mt-16 2xl:max-w-[1440px] 2xl:mx-auto xl:px-[150px] lg:gap-16"
-          :class="[tab === 3 ? 'md:flex' : 'hidden']"
+          :class="[
+            tab === 3 ? 'md:flex animate__animated animate__fadeIn' : 'hidden',
+          ]"
         >
           <div
             class="bg-white p-4 rounded-2xl md:flex md:flex-col md:justify-between lg:p-8"
