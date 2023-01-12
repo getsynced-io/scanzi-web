@@ -114,7 +114,13 @@ const changeIndex = (index) => {
       <div
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
-        <picture v-show="activePart === 1">
+        <picture
+          :class="
+            activePart === 1
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source type="image/webp" :srcset="creativeWayToStampAppViewWEBP2x" />
           <img
             :src="creativeWayToStampAppViewPNG"
@@ -124,7 +130,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture v-show="activePart === 2">
+        <picture
+          :class="
+            activePart === 2
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source
             type="image/webp"
             :srcset="professionalWayToProtectYourImagesAppViewWEBP2x"
@@ -137,7 +149,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture v-show="activePart === 3">
+        <picture
+          :class="
+            activePart === 3
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source
             type="image/webp"
             :srcset="theAllInOneSolutionAnnotatingYourDocumentsAppViewWEBP2x"
@@ -150,7 +168,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture v-show="activePart === 4">
+        <picture
+          :class="
+            activePart === 4
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source
             type="image/webp"
             :srcset="efficientWayToExtractTextFromImagesAppViewWEBP2x"
@@ -163,7 +187,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture v-show="activePart === 5">
+        <picture
+          :class="
+            activePart === 5
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source
             type="image/webp"
             :srcset="saveYourFilesAsJPGAndPDFAppViewWEBP2x"
@@ -176,7 +206,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture v-show="activePart === 6">
+        <picture
+          :class="
+            activePart === 6
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <source
             type="image/webp"
             :srcset="enhanceTheProtectionOfYourDataAppViewWEBP2x"
