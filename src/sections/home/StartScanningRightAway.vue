@@ -102,7 +102,13 @@ const changeIndex = (index) => {
       <div
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
-        <picture :class="activePart === 1 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 1
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="scanningAppMainViewPNG"
             :srcset="`${scanningAppMainViewPNG} 1x, ${scanningAppMainViewPNG2x} 2x, ${scanningAppMainViewPNG3x} 3x`"
@@ -111,7 +117,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture :class="activePart === 2 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 2
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="createASystemViewPNG"
             :srcset="`${createASystemViewPNG} 1x, ${createASystemViewPNG2x} 2x, ${createASystemViewPNG3x} 3x`"
@@ -120,7 +132,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture :class="activePart === 3 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 3
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="utilizeAVarietyOfFiltersViewPNG"
             :srcset="`${utilizeAVarietyOfFiltersViewPNG} 1x, ${utilizeAVarietyOfFiltersViewPNG2x} 2x, ${utilizeAVarietyOfFiltersViewPNG3x} 3x`"
@@ -129,7 +147,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture :class="activePart === 4 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 4
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="setUpAndStructureInFoldersViewPNG"
             :srcset="`${setUpAndStructureInFoldersViewPNG} 1x, ${setUpAndStructureInFoldersViewPNG2x} 2x, ${setUpAndStructureInFoldersViewPNG3x} 3x`"
@@ -138,7 +162,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture :class="activePart === 5 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 5
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="useAUsefulAndEfficientCameraViewPNG"
             :srcset="`${useAUsefulAndEfficientCameraViewPNG} 1x, ${useAUsefulAndEfficientCameraViewPNG2x} 2x, ${useAUsefulAndEfficientCameraViewPNG3x} 3x`"
@@ -147,7 +177,13 @@ const changeIndex = (index) => {
           />
         </picture>
 
-        <picture :class="activePart === 6 ? 'block' : 'hidden'">
+        <picture
+          :class="
+            activePart === 6
+              ? 'block animate__animated animate__fadeIn'
+              : 'hidden'
+          "
+        >
           <img
             :src="oneClickScanningStraighteningCroppingAndOCRViewPNG"
             :srcset="`${oneClickScanningStraighteningCroppingAndOCRViewPNG} 1x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG2x} 2x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG3x} 3x`"
