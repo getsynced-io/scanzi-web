@@ -21,6 +21,7 @@ import { RouterLink } from "vue-router";
             :src="logo"
             alt=""
             :srcset="`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x`"
+            loading="lazy"
           />
         </picture>
       </RouterLink>

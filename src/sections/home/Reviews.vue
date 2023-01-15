@@ -58,6 +58,7 @@ window.addEventListener("scroll", () => {
                     :src="`/assets/images/clients/${review.name}/${review.name}.png`"
                     :alt="`${review.name} profile image`"
                     :srcset="`/assets/images/clients/${review.name}/${review.name}.png 1x,/assets/images/clients/${review.name}/${review.name}-2x.png 2x,/assets/images/clients/${review.name}/${review.name}-3x.png 3x`"
+                    loading="lazy"
                   />
                 </picture>
                 <p class="text-base text-darkBlue">{{ review.feedback }}</p>

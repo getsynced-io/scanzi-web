@@ -21,6 +21,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
             alt="Scanzi logo"
             :srcset="`${anythingInASnapPNG} 1x, ${anythingInASnapPNG2x} 2x, ${anythingInASnapPNG3x} 3x`"
             class="max-w-[64px] mx-auto"
+            loading="lazy"
           />
         </picture>
         <h2

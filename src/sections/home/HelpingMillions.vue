@@ -11,9 +11,13 @@ import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millio
     <div
       class="py-8 px-4 lg:py-16 lg:items-center lg:gap-16 xl:px-[150px] 2xl:max-w-screen-2xl 2xl:mx-auto"
     >
-      <div class="bg-white py-8 rounded-2xl px-4 md:flex md:[&>*]:flex-1 md:gap-8 md:items-center lg:pr-16 lg:pl-8 lg:gap-16">
+      <div
+        class="bg-white py-8 rounded-2xl px-4 md:flex md:[&>*]:flex-1 md:gap-8 md:items-center lg:pr-16 lg:pl-8 lg:gap-16"
+      >
         <div class="md:order-2">
-          <h2 class="text-darkBlue font-bold text-2xl lg:text-[32px] lg:leading-[48px]">
+          <h2
+            class="text-darkBlue font-bold text-2xl lg:text-[32px] lg:leading-[48px]"
+          >
             Helps millions of users handle tasks on the go
           </h2>
           <p class="text-base text-lightDarkBlue font-normal mt-4">
@@ -36,7 +40,7 @@ import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millio
               alt="Helping Millions Illustration"
               :srcset="`${helpingMillionsIllustrationPNG} 1x, ${helpingMillionsIllustrationPNG2x} 2x, ${helpingMillionsIllustrationPNG3x} 3x`"
               class="max-w-none w-full"
-
+              loading="lazy"
             />
           </picture>
         </div>

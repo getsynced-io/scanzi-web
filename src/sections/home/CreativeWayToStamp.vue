@@ -114,116 +114,127 @@ const changeIndex = (index) => {
       <div
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
-        <picture
-          :class="
-            activePart === 1
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source type="image/webp" :srcset="creativeWayToStampAppViewWEBP2x" />
-          <img
-            :src="creativeWayToStampAppViewPNG"
-            :srcset="`${creativeWayToStampAppViewPNG}, ${creativeWayToStampAppViewPNG2x} 2x, ${creativeWayToStampAppViewPNG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+        <div class="flex items-center md:h-[538px]">
+          <picture
+            :class="
+              activePart === 1
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="creativeWayToStampAppViewWEBP2x"
+            />
+            <img
+              :src="creativeWayToStampAppViewPNG"
+              :srcset="`${creativeWayToStampAppViewPNG}, ${creativeWayToStampAppViewPNG2x} 2x, ${creativeWayToStampAppViewPNG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
 
-        <picture
-          :class="
-            activePart === 2
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source
-            type="image/webp"
-            :srcset="professionalWayToProtectYourImagesAppViewWEBP2x"
-          />
-          <img
-            :src="professionalWayToProtectYourImagesAppViewPNG"
-            :srcset="`${professionalWayToProtectYourImagesAppViewPNG}, ${professionalWayToProtectYourImagesAppViewPNG2x} 2x, ${professionalWayToProtectYourImagesAppViewPNG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+          <picture
+            :class="
+              activePart === 2
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="professionalWayToProtectYourImagesAppViewWEBP2x"
+            />
+            <img
+              :src="professionalWayToProtectYourImagesAppViewPNG"
+              :srcset="`${professionalWayToProtectYourImagesAppViewPNG}, ${professionalWayToProtectYourImagesAppViewPNG2x} 2x, ${professionalWayToProtectYourImagesAppViewPNG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
 
-        <picture
-          :class="
-            activePart === 3
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source
-            type="image/webp"
-            :srcset="theAllInOneSolutionAnnotatingYourDocumentsAppViewWEBP2x"
-          />
-          <img
-            :src="theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG"
-            :srcset="`${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG}, ${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG2x} 2x, ${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+          <picture
+            :class="
+              activePart === 3
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="theAllInOneSolutionAnnotatingYourDocumentsAppViewWEBP2x"
+            />
+            <img
+              :src="theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG"
+              :srcset="`${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG}, ${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG2x} 2x, ${theAllInOneSolutionAnnotatingYourDocumentsAppViewPNG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
 
-        <picture
-          :class="
-            activePart === 4
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source
-            type="image/webp"
-            :srcset="efficientWayToExtractTextFromImagesAppViewWEBP2x"
-          />
-          <img
-            :src="efficientWayToExtractTextFromImagesAppViewPMG"
-            :srcset="`${efficientWayToExtractTextFromImagesAppViewPMG}, ${efficientWayToExtractTextFromImagesAppViewPMG2x} 2x, ${efficientWayToExtractTextFromImagesAppViewPMG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+          <picture
+            :class="
+              activePart === 4
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="efficientWayToExtractTextFromImagesAppViewWEBP2x"
+            />
+            <img
+              :src="efficientWayToExtractTextFromImagesAppViewPMG"
+              :srcset="`${efficientWayToExtractTextFromImagesAppViewPMG}, ${efficientWayToExtractTextFromImagesAppViewPMG2x} 2x, ${efficientWayToExtractTextFromImagesAppViewPMG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
 
-        <picture
-          :class="
-            activePart === 5
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source
-            type="image/webp"
-            :srcset="saveYourFilesAsJPGAndPDFAppViewWEBP2x"
-          />
-          <img
-            :src="saveYourFilesAsJPGAndPDFAppViewPNG"
-            :srcset="`${saveYourFilesAsJPGAndPDFAppViewPNG}, ${saveYourFilesAsJPGAndPDFAppViewPNG2x} 2x, ${saveYourFilesAsJPGAndPDFAppViewPNG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+          <picture
+            :class="
+              activePart === 5
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="saveYourFilesAsJPGAndPDFAppViewWEBP2x"
+            />
+            <img
+              :src="saveYourFilesAsJPGAndPDFAppViewPNG"
+              :srcset="`${saveYourFilesAsJPGAndPDFAppViewPNG}, ${saveYourFilesAsJPGAndPDFAppViewPNG2x} 2x, ${saveYourFilesAsJPGAndPDFAppViewPNG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
 
-        <picture
-          :class="
-            activePart === 6
-              ? 'block animate__animated animate__fadeIn'
-              : 'hidden'
-          "
-        >
-          <source
-            type="image/webp"
-            :srcset="enhanceTheProtectionOfYourDataAppViewWEBP2x"
-          />
-          <img
-            :src="enhanceTheProtectionOfYourDataAppViewPNG"
-            :srcset="`${enhanceTheProtectionOfYourDataAppViewPNG}, ${enhanceTheProtectionOfYourDataAppViewPNG2x} 2x, ${enhanceTheProtectionOfYourDataAppViewPNG3x} 3x`"
-            alt=""
-            class="max-w-none w-full"
-          />
-        </picture>
+          <picture
+            :class="
+              activePart === 6
+                ? 'block animate__animated animate__fadeIn'
+                : 'hidden'
+            "
+          >
+            <source
+              type="image/webp"
+              :srcset="enhanceTheProtectionOfYourDataAppViewWEBP2x"
+            />
+            <img
+              :src="enhanceTheProtectionOfYourDataAppViewPNG"
+              :srcset="`${enhanceTheProtectionOfYourDataAppViewPNG}, ${enhanceTheProtectionOfYourDataAppViewPNG2x} 2x, ${enhanceTheProtectionOfYourDataAppViewPNG3x} 3x`"
+              alt=""
+              class="max-w-none w-full"
+              loading="lazy"
+            />
+          </picture>
+        </div>
       </div>
     </div>
   </section>
