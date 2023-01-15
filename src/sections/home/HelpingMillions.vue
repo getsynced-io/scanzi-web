@@ -39,7 +39,7 @@ import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millio
               :src="helpingMillionsIllustrationPNG"
               alt="Helping Millions Illustration"
               :srcset="`${helpingMillionsIllustrationPNG} 1x, ${helpingMillionsIllustrationPNG2x} 2x, ${helpingMillionsIllustrationPNG3x} 3x`"
-              class="max-w-none w-full"
+              class="max-w-none w-full aspect-[311/227] md:aspect-[26/19]"
               loading="lazy"
             />
           </picture>
