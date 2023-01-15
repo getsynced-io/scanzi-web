@@ -4,34 +4,40 @@ import { ref } from "vue";
 // assets/images
 
 // start scanning right away images
-import scanningAppMainViewPNG from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view.png";
-import scanningAppMainViewPNG2x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view-2x.png";
-import scanningAppMainViewPNG3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-view-3x.png";
+import scanningAppMainAppViewPNG from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view.png";
+import scanningAppMainAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-2x.png";
+import scanningAppMainAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-3x.png";
+import scanningAppMainAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-3x.webp";
 
 // create a system for you documents images
-import createASystemViewPNG from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view.png";
-import createASystemViewPNG2x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view-2x.png";
-import createASystemViewPNG3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-view-3x.png";
+import createASystemAppViewPNG from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view.png";
+import createASystemAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-2x.png";
+import createASystemAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-3x.png";
+import createASystemAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-3x.webp";
 
 // utilize a variety of filters
-import utilizeAVarietyOfFiltersViewPNG from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view.png";
-import utilizeAVarietyOfFiltersViewPNG2x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view-2x.png";
-import utilizeAVarietyOfFiltersViewPNG3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-view-3x.png";
+import utilizeAVarietyOfFiltersAppViewPNG from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view.png";
+import utilizeAVarietyOfFiltersAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-2x.png";
+import utilizeAVarietyOfFiltersAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-3x.png";
+import utilizeAVarietyOfFiltersAppViewWBP3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-3x.webp";
 
 // set up and structure in folders images
-import setUpAndStructureInFoldersViewPNG from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view.png";
-import setUpAndStructureInFoldersViewPNG2x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view-2x.png";
-import setUpAndStructureInFoldersViewPNG3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-view-3x.png";
+import setUpAndStructureInFoldersAppViewPNG from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view.png";
+import setUpAndStructureInFoldersAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-2x.png";
+import setUpAndStructureInFoldersAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-3x.png";
+import setUpAndStructureInFoldersAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-3x.webp";
 
 // use a useful and efficient camera images
-import useAUsefulAndEfficientCameraViewPNG from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view.png";
-import useAUsefulAndEfficientCameraViewPNG2x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view-2x.png";
-import useAUsefulAndEfficientCameraViewPNG3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-view-3x.png";
+import useAUsefulAndEfficientCameraAppViewPNG from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view.png";
+import useAUsefulAndEfficientCameraAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-2x.png";
+import useAUsefulAndEfficientCameraAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-3x.png";
+import useAUsefulAndEfficientCameraAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-3x.webp";
 
 // one clicking scanning, straightening, cropping, and OCR
-import oneClickScanningStraighteningCroppingAndOCRViewPNG from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view.png";
-import oneClickScanningStraighteningCroppingAndOCRViewPNG2x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view-2x.png";
-import oneClickScanningStraighteningCroppingAndOCRViewPNG3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-view-3x.png";
+import oneClickScanningStraighteningCroppingAndOCRAppViewPNG from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view.png";
+import oneClickScanningStraighteningCroppingAndOCRAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-2x.png";
+import oneClickScanningStraighteningCroppingAndOCRAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-3x.png";
+import oneClickScanningStraighteningCroppingAndOCRAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-3x.webp";
 
 const activePart = ref(1);
 
@@ -110,9 +116,10 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source type="image/webp" :srcset="scanningAppMainAppViewWEBP3x" />
             <img
-              :src="scanningAppMainViewPNG"
-              :srcset="`${scanningAppMainViewPNG} 1x, ${scanningAppMainViewPNG2x} 2x, ${scanningAppMainViewPNG3x} 3x`"
+              :src="scanningAppMainAppViewPNG"
+              :srcset="`${scanningAppMainAppViewPNG}, ${scanningAppMainAppViewPNG2x} 2x, ${scanningAppMainAppViewPNG3x} 3x`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
@@ -126,9 +133,10 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source type="image/webp" :srcset="createASystemAppViewWEBP3x" />
             <img
-              :src="createASystemViewPNG"
-              :srcset="`${createASystemViewPNG} 1x, ${createASystemViewPNG2x} 2x, ${createASystemViewPNG3x} 3x`"
+              :src="createASystemAppViewPNG"
+              :srcset="`${createASystemAppViewPNG}, ${createASystemAppViewPNG2x} 2x, ${createASystemAppViewPNG3x} 3x`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
@@ -142,9 +150,13 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source
+              type="image/webp"
+              :srcset="utilizeAVarietyOfFiltersAppViewWBP3x"
+            />
             <img
-              :src="utilizeAVarietyOfFiltersViewPNG"
-              :srcset="`${utilizeAVarietyOfFiltersViewPNG} 1x, ${utilizeAVarietyOfFiltersViewPNG2x} 2x, ${utilizeAVarietyOfFiltersViewPNG3x} 3x`"
+              :src="utilizeAVarietyOfFiltersAppViewPNG"
+              :srcset="`${utilizeAVarietyOfFiltersAppViewPNG}, ${utilizeAVarietyOfFiltersAppViewPNG2x} 2x, ${utilizeAVarietyOfFiltersAppViewPNG3x} 3x`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
@@ -158,9 +170,13 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source
+              type="image/webp"
+              :srcset="setUpAndStructureInFoldersAppViewWEBP3x"
+            />
             <img
-              :src="setUpAndStructureInFoldersViewPNG"
-              :srcset="`${setUpAndStructureInFoldersViewPNG} 1x, ${setUpAndStructureInFoldersViewPNG2x} 2x, ${setUpAndStructureInFoldersViewPNG3x} 3x`"
+              :src="setUpAndStructureInFoldersAppViewPNG"
+              :srcset="`${setUpAndStructureInFoldersAppViewPNG}, ${setUpAndStructureInFoldersAppViewPNG2x} 2x, ${setUpAndStructureInFoldersAppViewPNG3x} 3x`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
@@ -174,9 +190,13 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source
+              type="image/webp"
+              :srcset="useAUsefulAndEfficientCameraAppViewWEBP3x"
+            />
             <img
-              :src="useAUsefulAndEfficientCameraViewPNG"
-              :srcset="`${useAUsefulAndEfficientCameraViewPNG} 1x, ${useAUsefulAndEfficientCameraViewPNG2x} 2x, ${useAUsefulAndEfficientCameraViewPNG3x} 3x`"
+              :src="useAUsefulAndEfficientCameraAppViewPNG"
+              :srcset="`${useAUsefulAndEfficientCameraAppViewPNG}, ${useAUsefulAndEfficientCameraAppViewPNG2x} 2x, ${useAUsefulAndEfficientCameraAppViewPNG3x} 3x`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
@@ -190,9 +210,13 @@ const changeIndex = (index) => {
                 : 'hidden'
             "
           >
+            <source
+              type="image/webp"
+              :srcset="oneClickScanningStraighteningCroppingAndOCRAppViewWEBP3x"
+            />
             <img
-              :src="oneClickScanningStraighteningCroppingAndOCRViewPNG"
-              :srcset="`${oneClickScanningStraighteningCroppingAndOCRViewPNG} 1x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG2x} 2x, ${oneClickScanningStraighteningCroppingAndOCRViewPNG3x} 3x`"
+              :src="oneClickScanningStraighteningCroppingAndOCRAppViewPNG"
+              :srcset="`${oneClickScanningStraighteningCroppingAndOCRAppViewPNG}, ${oneClickScanningStraighteningCroppingAndOCRAppViewPNG2x}, ${oneClickScanningStraighteningCroppingAndOCRAppViewPNG3x}`"
               alt=""
               class="max-w-none w-full"
               loading="lazy"
