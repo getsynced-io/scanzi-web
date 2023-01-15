@@ -142,7 +142,7 @@ function tabsTitlesClicked(e) {
                 :src="adjustYourImagesAppViewPNG"
                 :srcset="`${adjustYourImagesAppViewPNG}, ${adjustYourImagesAppViewPNG2x} 2x, ${adjustYourImagesAppViewPNG3x} 3x`"
                 alt=""
-                class="max-w-none w-full"
+                class="max-w-none w-full aspect-[1/1]"
                 loading="lazy"
               />
             </picture>
@@ -179,6 +179,7 @@ function tabsTitlesClicked(e) {
               <ArrowRight />
             </a>
           </div>
+
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
               <source
@@ -189,7 +190,7 @@ function tabsTitlesClicked(e) {
                 :src="artisticTouchesAppViewPNG"
                 :srcset="`${artisticTouchesAppViewPNG}, ${artisticTouchesAppViewPNG2x} 2x, ${artisticTouchesAppViewPNG3x} 3x`"
                 alt=""
-                class="max-w-none w-full"
+                class="max-w-none w-full aspect-[1/1]"
                 loading="lazy"
               />
             </picture>
@@ -225,6 +226,7 @@ function tabsTitlesClicked(e) {
               <ArrowRight />
             </a>
           </div>
+
           <div class="mt-8 md:mt-0 2xl:flex-[0_1_538px]">
             <picture>
               <source
@@ -235,7 +237,7 @@ function tabsTitlesClicked(e) {
                 :src="signDocumentsDigitallyAppViewPNG"
                 :srcset="`${signDocumentsDigitallyAppViewPNG}, ${signDocumentsDigitallyAppViewPNG2x} 2x, ${signDocumentsDigitallyAppViewPNG3x} 3x`"
                 alt=""
-                class="max-w-none w-full"
+                class="max-w-none w-full aspect-[1/1]"
                 loading="lazy"
               />
             </picture>

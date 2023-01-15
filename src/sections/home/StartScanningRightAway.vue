@@ -108,7 +108,7 @@ const changeIndex = (index) => {
       <div
         class="mt-8 md:mt-0 md:order-1 md:flex-1 xl:flex-[0_1_538px] lg:mt-0"
       >
-        <div class="flex items-center md:h-[358px]">
+        <div class="flex items-center aspect-[269/179]">
           <picture
             :class="
               activePart === 1
