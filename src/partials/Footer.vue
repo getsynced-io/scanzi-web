@@ -11,12 +11,10 @@ import { RouterLink } from "vue-router";
         @ 2023 ScanWizard. All rights reserved.
       </p>
       <div class="mt-4 flex gap-4 justify-center lg:mt-0">
-        <RouterLink
-          to="/privacy-policy"
-          class="text-darkBlue font-bold text-base"
+        <RouterLink to="/privacy" class="text-darkBlue font-bold text-base"
           >Privacy Policy</RouterLink
         >
-        <RouterLink to="/terms-of-use" class="text-darkBlue font-bold text-base"
+        <RouterLink to="/terms" class="text-darkBlue font-bold text-base"
           >Terms of Use</RouterLink
         >
       </div>
