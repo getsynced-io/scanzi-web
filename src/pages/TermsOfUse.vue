@@ -11,18 +11,18 @@
         Terms of Use
       </h1>
       <a
-        href="mailto:support@scanzi.app"
+        href="mailto:support@scanwizard.app"
         class="block font-bold text-base text-[#4A90E2] mt-4 lg:text-2xl"
-        >support@scanzi.app</a
+        >support@scanwizard.app</a
       >
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-8 lg:mt-16">
-        Welcome to Scanzi our Android and iOS mobile application (hereinafter
-        our “APP”). These Terms and Conditions (the “Terms”) constitute a legal
-        agreement between you and Ozhibko (Serhiy Ozhibko) of [Insert Address],
-        Turkey (“Ozhibko”, “we”, “us”, or “our”) governing the use of our APP
-        and our Services. We license use of our APP to you on the basis of these
-        Terms. We do not sell our APP to you, and we remain the owner of our APP
-        at all times.
+        Welcome to ScanWizard our Android and iOS mobile application
+        (hereinafter our “APP”). These Terms and Conditions (the “Terms”)
+        constitute a legal agreement between you and Ozhibko (Serhiy Ozhibko) of
+        [Insert Address], Turkey (“Ozhibko”, “we”, “us”, or “our”) governing the
+        use of our APP and our Services. We license use of our APP to you on the
+        basis of these Terms. We do not sell our APP to you, and we remain the
+        owner of our APP at all times.
       </p>
 
       <!--  -->
@@ -207,7 +207,7 @@
         <li
           class="relative text-darkBlue text-base font-normal pl-12 lg:text-2xl before:content-['4.3.'] before:absolute before:left-0 before:top-0"
         >
-          Certain features of Scanzi you use may need you to upload content,
+          Certain features of ScanWizard you use may need you to upload content,
           including images, files and documents . You hereby grant us a royalty
           free, transferable, sub-licensable, worldwide and irrevocable license
           to process your content as your requirement.

@@ -11,12 +11,12 @@
         Privacy Policy
       </h1>
       <a
-        href="mailto:support@scanzi.app"
+        href="mailto:support@scanwizard.app"
         class="block font-bold text-base text-[#4A90E2] mt-4 lg:text-2xl"
-        >support@scanzi.app</a
+        >support@scanwizard.app</a
       >
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-8 lg:mt-16">
-        Welcome to the Scanzi iOS or Android mobile application (our “APP”).
+        Welcome to the ScanWizard iOS or Android mobile application (our “APP”).
         This Privacy Policy applies to you and Serhiy Ozhibko, irrespective of
         your country of residence or location.
       </p>
@@ -85,7 +85,7 @@
       <p class="text-darkBlue text-base font-normal lg:text-2xl">
         The person that is responsible for your information under this Privacy
         Policy (the “data controller”) is:
-        <span class="block mt-4">Scanzi</span>
+        <span class="block mt-4">ScanWizard</span>
         <span class="block">Ozhibko (Serhiy Ozhibko)</span>
         <span class="block">[insert address]</span>
       </p>

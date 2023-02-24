@@ -1,8 +1,8 @@
 <script setup>
-import logoWEBP from "../assets/logo/logo.webp";
-import logo from "../assets/logo/logo.png";
-import logo2x from "../assets/logo/logo-2x.png";
-import logo3x from "../assets/logo/logo-3x.png";
+import logoWEBP2x from "../assets/logo/logo-2x.webp";
+import logoPNG from "../assets/logo/logo.png";
+import logoPNG2x from "../assets/logo/logo-2x.png";
+import logoPNG3x from "../assets/logo/logo-3x.png";
 
 import { RouterLink } from "vue-router";
 </script>
@@ -14,12 +14,13 @@ import { RouterLink } from "vue-router";
     >
       <RouterLink to="/">
         <picture>
-          <source :srcset="logoWEBP" type="image/webp" />
+          <source :srcset="logoWEBP2x" type="image/webp" />
           <img
-            :src="logo"
+            :src="logoPNG"
             alt=""
-            :srcset="`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x`"
+            :srcset="`${logoPNG} 1x, ${logoPNG2x} 2x, ${logoPNG3x} 3x`"
             loading="lazy"
+            class="w-[132px]"
           />
         </picture>
       </RouterLink>

@@ -7,37 +7,37 @@ import { ref } from "vue";
 import scanningAppMainAppViewPNG from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view.png";
 import scanningAppMainAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-2x.png";
 import scanningAppMainAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-3x.png";
-import scanningAppMainAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-3x.webp";
+import scanningAppMainAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/start-scanning-right-away/scanning-app-main-app-view-2x.webp";
 
 // create a system for you documents images
 import createASystemAppViewPNG from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view.png";
 import createASystemAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-2x.png";
 import createASystemAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-3x.png";
-import createASystemAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-3x.webp";
+import createASystemAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/create-a-system-for-your-documents/create-a-system-app-view-2x.webp";
 
 // utilize a variety of filters
 import utilizeAVarietyOfFiltersAppViewPNG from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view.png";
 import utilizeAVarietyOfFiltersAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-2x.png";
 import utilizeAVarietyOfFiltersAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-3x.png";
-import utilizeAVarietyOfFiltersAppViewWBP3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-3x.webp";
+import utilizeAVarietyOfFiltersAppViewWBP3x from "../../assets/images/start-scanning-right-away-section/utilize-a-variety-of-filters/utilize-a-variety-of-filters-app-view-2x.webp";
 
 // set up and structure in folders images
 import setUpAndStructureInFoldersAppViewPNG from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view.png";
 import setUpAndStructureInFoldersAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-2x.png";
 import setUpAndStructureInFoldersAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-3x.png";
-import setUpAndStructureInFoldersAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-3x.webp";
+import setUpAndStructureInFoldersAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/set-up-and-structure-in-folders/set-up-and-structure-in-folders-app-view-2x.webp";
 
 // use a useful and efficient camera images
 import useAUsefulAndEfficientCameraAppViewPNG from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view.png";
 import useAUsefulAndEfficientCameraAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-2x.png";
 import useAUsefulAndEfficientCameraAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-3x.png";
-import useAUsefulAndEfficientCameraAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-3x.webp";
+import useAUsefulAndEfficientCameraAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/use-a-useful-and-efficient-camera/use-a-useful-and-efficient-camera-app-view-2x.webp";
 
 // one clicking scanning, straightening, cropping, and OCR
 import oneClickScanningStraighteningCroppingAndOCRAppViewPNG from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view.png";
 import oneClickScanningStraighteningCroppingAndOCRAppViewPNG2x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-2x.png";
 import oneClickScanningStraighteningCroppingAndOCRAppViewPNG3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-3x.png";
-import oneClickScanningStraighteningCroppingAndOCRAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-3x.webp";
+import oneClickScanningStraighteningCroppingAndOCRAppViewWEBP3x from "../../assets/images/start-scanning-right-away-section/one-click-scanning-straightening-cropping-and-ocr/one-click-scanning-straightening-cropping-and-ocr-app-view-2x.webp";
 
 const activePart = ref(1);
 

@@ -18,7 +18,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
           <source type="image/webp" :srcset="anythingInASnapWEBP" />
           <img
             :src="`${anythingInASnapPNG}`"
-            alt="Scanzi logo"
+            alt="ScanWizard logo"
             :srcset="`${anythingInASnapPNG} 1x, ${anythingInASnapPNG2x} 2x, ${anythingInASnapPNG3x} 3x`"
             class="max-w-[64px] mx-auto"
             loading="lazy"
@@ -30,7 +30,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
           Anything in a snap
         </h2>
         <p class="text-xl text-lightDarkBlue text-center mt-4 lg:text-2xl">
-          With Scanzi, easily capture and convert documents, forms, business
+          With ScanWizard, easily capture and convert documents, forms, business
           cards and whiteboards into high-quality PDFs.
         </p>
         <a
