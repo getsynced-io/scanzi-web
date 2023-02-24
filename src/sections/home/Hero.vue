@@ -2,7 +2,7 @@
 import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg";
 
 // illustration
-import heroIllustrationWEBP from "../../assets/images/hero/hero-illustration.webp";
+import heroIllustrationWEBP2x from "../../assets/images/hero/hero-illustration-2x.webp";
 import heroIllustrationPNG from "../../assets/images/hero/hero-illustration.png";
 import heroIllustrationPNG2x from "../../assets/images/hero/hero-illustration-2x.png";
 import heroIllustrationPNG3x from "../../assets/images/hero/hero-illustration-3x.png";
@@ -13,7 +13,7 @@ import heroIllustrationPNG3x from "../../assets/images/hero/hero-illustration-3x
     <div
       class="py-8 pb-8 px-4 md:flex md:items-center md:justify-between md:gap-8 lg:gap-16 lg:py-16 xl:px-[150px] 2xl:max-w-[1440px] 2xl:mx-auto"
     >
-      <div class="lg:flex-[0_1_538px]">
+      <div class="md:flex-[0_1_538px]">
         <h1
           class="text-darkBlue font-bold text-5xl leading-[64px] lg:text-[64px] lg:leading-[96px]"
         >
@@ -30,9 +30,9 @@ import heroIllustrationPNG3x from "../../assets/images/hero/hero-illustration-3x
           <DownloadOnAppStoreSVG />
         </a>
       </div>
-      <div class="mt-8 md:mt-0">
+      <div class="mt-8 md:mt-0 md:flex-[0_1_538px]">
         <picture>
-          <source type="image/webp" :srcset="heroIllustrationWEBP" />
+          <source type="image/webp" :srcset="heroIllustrationWEBP2x" />
           <img
             :src="heroIllustrationPNG"
             alt=""
