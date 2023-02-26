@@ -1,5 +1,5 @@
 <script setup>
-import anythingInASnapWEBP from "../../assets/images/anything-in-a-snap/anything-in-a-snap.webp";
+import anythingInASnapWEBP2x from "../../assets/images/anything-in-a-snap/anything-in-a-snap-2x.webp";
 import anythingInASnapPNG from "../../assets/images/anything-in-a-snap/anything-in-a-snap.png";
 import anythingInASnapPNG2x from "../../assets/images/anything-in-a-snap/anything-in-a-snap-2x.png";
 import anythingInASnapPNG3x from "../../assets/images/anything-in-a-snap/anything-in-a-snap-3x.png";
@@ -15,7 +15,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
     >
       <div class="max-w-[749px] mx-auto">
         <picture>
-          <source type="image/webp" :srcset="anythingInASnapWEBP" />
+          <source type="image/webp" :srcset="anythingInASnapWEBP2x" />
           <img
             :src="`${anythingInASnapPNG}`"
             alt="ScanWizard logo"
