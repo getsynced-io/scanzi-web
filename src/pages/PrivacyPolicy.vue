@@ -92,7 +92,7 @@
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-4">
         If you have any questions about the processing of your personal data by
         us or about data protection in general, you can reach us at
-        serhiyozhibko@gmail.com.
+        serhiy@scanwizard.app.
       </p>
 
       <h3 class="text-darkBlue text-base font-bold lg:text-2xl mt-4 lg:mt-8">
@@ -242,7 +242,7 @@
       </ul>
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-4">
         If you wish to exercise any of the rights listed above, you can contact
-        us by email at serhiyozhibko@gmail.com. For your protection and the
+        us by email at serhiy@scanwizard.app. For your protection and the
         protection of all our users, we may need to request certain information
         from you to help us confirm your identity before we can respond to the
         above requests.
@@ -317,7 +317,7 @@
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-4">
         You may withdraw your consent and request us to stop using and/or
         disclosing your personal and special category data by submitting your
-        request to us in writing to serhiyozhibko@gmail.com.
+        request to us in writing to serhiy@scanwizard.app.
       </p>
 
       <h2
@@ -513,7 +513,7 @@
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-4">
         You may withdraw your consent and request us to stop using and/or
         disclosing your personal and special category data by submitting your
-        request to us in writing to serhiyozhibko@gmail.com.
+        request to us in writing to serhiy@scanwizard.app.
       </p>
 
       <h2
