@@ -87,7 +87,7 @@
         Policy (the “data controller”) is:
         <span class="block mt-4">ScanWizard</span>
         <span class="block">Ozhibko (Serhiy Ozhibko)</span>
-        <span class="block">[insert address]</span>
+        <span class="block">Knyahyni Olʹhy, L’viv, L’vivs’ka oblast, 79000</span>
       </p>
       <p class="text-darkBlue text-base font-normal lg:text-2xl mt-4">
         If you have any questions about the processing of your personal data by

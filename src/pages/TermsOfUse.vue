@@ -19,7 +19,7 @@
         Welcome to ScanWizard our Android and iOS mobile application
         (hereinafter our “APP”). These Terms and Conditions (the “Terms”)
         constitute a legal agreement between you and Ozhibko (Serhiy Ozhibko) of
-        [Insert Address], Turkey (“Ozhibko”, “we”, “us”, or “our”) governing the
+        Knyahyni Olʹhy, L’viv, L’vivs’ka oblast, 79000, Turkey (“Ozhibko”, “we”, “us”, or “our”) governing the
         use of our APP and our Services. We license use of our APP to you on the
         basis of these Terms. We do not sell our APP to you, and we remain the
         owner of our APP at all times.
