@@ -1,4 +1,6 @@
 <script setup>
+// imports
+import { onMounted, ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper";
 import "swiper/css";
@@ -7,14 +9,27 @@ import "swiper/css/autoplay";
 // data
 import reviewsData from "../../data/reviews.json";
 
-let swiperObj;
+// utils
+import isInViewport from "../../utils/isInViewport";
+
+let swiperProxyObj;
 
 const onInit = (swiper) => {
-  swiperObj = swiper;
+  swiperProxyObj = swiper;
+  window.swiperProxyObj = swiper;
+  swiperProxyObj.autoplay.pause();
 };
 
-window.addEventListener("scroll", () => {
-  swiperObj.autoplay.pause();
+onMounted(() => {
+  window.addEventListener("scroll", () => {
+    if (isInViewport(swiperProxyObj.el) && swiperProxyObj.autoplay.paused) {
+      swiperProxyObj.autoplay.resume();
+    }
+
+    if (!isInViewport(swiperProxyObj.el) && !swiperProxyObj.autoplay.paused) {
+      swiperProxyObj.autoplay.pause();
+    }
+  });
 });
 </script>
 
