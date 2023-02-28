@@ -47,7 +47,7 @@ onMounted(() => {
         <div class="mt-8 lg:mt-16">
           <Swiper
             :slides-per-view="'auto'"
-            :autoplay="{ delay: 2000, disableOnInteraction: false }"
+            :autoplay="{ delay: 3000, disableOnInteraction: true }"
             :modules="[Autoplay]"
             :breakpoints="{
               320: { spaceBetween: 16 },
