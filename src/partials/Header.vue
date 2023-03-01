@@ -21,16 +21,18 @@ import { RouterLink } from "vue-router";
             :src="logoPNG"
             alt=""
             :srcset="`${logoPNG} 1x, ${logoPNG2x} 2x, ${logoPNG3x} 3x`"
-            loading="lazy" class="w-[132px] md:w-[141px]"
+            loading="lazy"
+            class="w-[132px] md:w-[141px]"
           />
         </picture>
       </RouterLink>
       <div class="">
-        <button
-          class="font-bold bg-[rgba(5,_30,_86,_0.16)] py-1 px-4 rounded-[32px] text-darkBlue"
+        <a
+          href="mailto:support@scanwizard.app"
+          class="font-bold bg-[rgba(5,_30,_86,_0.16)] py-1 px-4 rounded-[32px] text-darkBlue block"
         >
           Contact
-        </button>
+        </a>
       </div>
     </div>
   </header>
