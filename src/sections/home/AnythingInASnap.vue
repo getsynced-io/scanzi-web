@@ -34,7 +34,7 @@ import DownloadOnAppStoreSVG from "../../assets/icons/download-on-app-store.svg"
           cards and whiteboards into high-quality PDFs.
         </p>
         <a
-          href="#"
+          href="https://apps.apple.com/app/id1637256978"
           class="w-fit bg-darkBlue flex gap-[9px] px-[14px] pb-[9px] pt-[11px] rounded-2xl mt-4 mx-auto lg:mt-8"
         >
           <DownloadOnAppStoreSVG />

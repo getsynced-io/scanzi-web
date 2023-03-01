@@ -24,7 +24,7 @@ import heroIllustrationPNG3x from "../../assets/images/hero/hero-illustration-3x
           receipts.
         </p>
         <a
-          href="#"
+          href="https://apps.apple.com/app/id1637256978"
           class="bg-darkBlue flex gap-[9px] px-[14px] pb-[9px] pt-[11px] w-fit rounded-2xl mt-4 lg:mt-8"
         >
           <DownloadOnAppStoreSVG />
