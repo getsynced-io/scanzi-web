@@ -1,6 +1,6 @@
 <script setup>
 import ArrowRight from "../../assets/icons/arrow-right.svg";
-import helpingMillionsIllustrationWEBP from "../../assets/images/helping-millions/helping-millions-illustration.webp";
+import helpingMillionsIllustrationWEBP2x from "../../assets/images/helping-millions/helping-millions-illustration-2x.webp";
 import helpingMillionsIllustrationPNG from "../../assets/images/helping-millions/helping-millions-illustration.png";
 import helpingMillionsIllustrationPNG2x from "../../assets/images/helping-millions/helping-millions-illustration-2x.png";
 import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millions/helping-millions-illustration-3x.png";
@@ -33,7 +33,7 @@ import helpingMillionsIllustrationPNG3x from "../../assets/images/helping-millio
           <picture>
             <source
               type="image/webp"
-              :srcset="helpingMillionsIllustrationWEBP"
+              :srcset="helpingMillionsIllustrationWEBP2x"
             />
             <img
               :src="helpingMillionsIllustrationPNG"
